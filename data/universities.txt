@@ -1,0 +1,185 @@
+Angelo State University|Kitch, William
+Arizona State University|Kavazanjian, Ed
+Auburn University|Anderson, Brian
+Boise State University|Chittoori, Bhaskar
+Brigham Young University|Rollins, Kyle
+Bucknell University|Malusis, Michael
+California Baptist University|Li, Jiliang (Joseph)
+California Institute of Technology|Andrade, Jose
+California Polytechnic State University, San Luis Obispo|Moss, Robb
+California State Polytechnic University, Pomona|Shafiee, Ali
+California State University-Fresno|Oka, Lalita
+California State University-Fullerton|Tiwari, Binod
+California State University-Long Beach|Star, Lisa
+California State University-Los Angeles|Kwan, Wing Shun
+Carnegie Mellon University|Christian, Sarah
+Case Western Reserve University|Yu, Xiong (Bill)
+Clarkson University|Xiao, Suguang
+Clemson University|Ravichandran, Nadarajah
+Colorado School of Mines|Mooney, Michael
+Colorado State University|Scalia, Joe
+Columbia University|Ling, Hoe
+Drexel University|Pando, Miguel
+Duke University|Veveakis, Manolis
+Embry Riddle Aeronautical University|Ellithy, Ghada
+Florida Atlantic University|Sobhan, Khaled
+Florida Gulf Coast University|Kunberger, Tanya
+Florida State University|Wasman, Scott
+George Mason University|Tanyu, Burak
+Georgia Institute of Technology|Frost, David
+Georgia Southern University|Nam, Soonkie
+Howard University|Jaradat, Karam
+Imperial College London|O'Sullivan, Catherine
+Iowa State University|Rutherford, Cassandra
+Jackson State University|Li, Lin
+Kansas State University|Peric, Dunja
+Lafayette College|Roth, Mary
+Lamar University|Kim, Yong Je
+Lawrence Technological University|Ma, Yifei
+Lehigh University|Pamukcu, Sibel
+Louisiana State University|Tumay, Mehmet
+Louisiana Tech University|Wang, Jay X.
+Manhattan University|De, Anirban
+Marian University|Avrithi, Kleio
+Massachusetts Institute of Technology|Whittle, Andrew
+Memorial University of Newfoundland|Roy, Kshama
+Merrimack College|Kaklamanos, James
+Michigan State University|Cetin, Bora
+Michigan Technological University|Chitta, Sai Sandeep
+Military Technological College|Ganiyu, Abideen
+Milwaukee School of Engineering|Bohnhoff, Gretchen
+Mississippi State University|
+Missouri University of Science and Technology|
+Montana State University|Khosravi, Mohammad
+Montana Technological University|MacLaughlin, Mary
+New Jersey Institute of Technology|Meegoda, Jay N.
+New Mexico State University|Bandini, Paola
+New York University|Iskander, Magued
+North Carolina State University|Montoya, Brina
+Northeastern University|Shillaber, Craig
+Northwestern University|Buscarnera, Guiseppe
+Ohio University|Fox, Patrick
+Oklahoma State University|Bulut, Rifat
+Old Dominion University|Wang, Pengfei
+Oregon Institute of Technology|Wang, Jintai
+Oregon State University|Stuedlein, Armin W.
+Pennsylvania State University|Yost, Kaleigh
+Pennsylvania State University-Harrisburg|Kakuturu, Sai
+Polytechnique Montreal|Cantor, David
+Purdue University|Bourdeau, Philippe
+Purdue University Fort Wayne|Singh, Shubjot
+Rensselaer Polytechnic Institute|El-Shafee, Omar
+Roger Williams University|Judge, Pamela
+Rose Hulman Institute of Technology|Sutterer, Kevin
+Rowan University|Zhu, Cheng
+Rutgers University|Maher, Ali
+SUNY Polytechnic Institute|Ahmed, Asif
+Saint Louis University|Luna, Ronaldo
+San Diego State University|Valdes, Julio
+San Jose State University|Coe, Joseph
+Santa Clara University|Singh, Sukhmander
+South Carolina State University|
+South Dakota School of Mines and Technology|Loshelder, Julia
+South Dakota State University|Banerjee, Aritra
+Southern Illinois University Carbondale|Kolay, Prabir
+Southern Illinois University Edwardsville|Osouli, Abdolreza
+Southern Methodist University|El Shamy, Usama
+Stanford University|Borja, Ronaldo
+Stony Brook University|Pei, Te
+Swarthmore College|Adeleke, Daniel
+Syracuse University|Bhatia, Shobha
+Temple University|Zhu, Yichuan
+Tennessee State University|Spears, Amber
+Tennessee Technological University|VandenBerge, Daniel
+Texas A&M University|Briaud, Jean-Louis
+Texas A&M University – Corpus Christi|Agarwal, Ekansh
+Texas State University|Kulesza, Stacey
+Texas Tech University|Jayawickrama, Priyantha
+The Citadel|Ghanat, Simon T.
+The City College of New York|Pei, Te
+The College of New Jersey|Krstic, Vedrana
+The Cooper Union for the Advancement of Science and Art|Huang, Hejintao
+The Ohio State University|Bassal, Patrick
+Tufts University|Swan, Chris
+United States Air Force Academy|
+United States Coast Guard Academy|Jackson, Hudson
+University of Akron|
+University of Alaska-Fairbanks|Darrow, Margaret
+University of Alberta|Deng, Lijun
+University of Arkansas|Wood, Clint
+University of Buffalo|
+University of California-Berkeley|Bray, Jonathan
+University of California-Davis|DeJong, Jason
+University of California-Los Angeles|Stewart, Jonathan P.
+University of California-San Diego|Semnani, Shabnam
+University of Central Florida|Arboleda, Luis
+University of Cincinnati|Wang, Lei
+University of Colorado-Boulder|Dashti, Shideh
+University of Colorado-Denver|
+University of Dayton|Bilgin, Ömer
+University of Delaware|Meehan, Christopher L.
+University of Florida|Stark, Nina
+University of Georgia|Kim, S. Sonny
+University of Hawaii at Manoa|Ooi, Phillip
+University of Houston|Zamiran, Siavash
+University of Idaho|Sharma, Sunil
+University of Illinois at Urbana-Champaign|Olson, Scott
+University of Illinois-Chicago|Reddy, Krishna
+University of Kansas|Parsons, Robert
+University of Kentucky|Bryson, L. Sebastian
+University of Louisville|Ghasemi-Fare, Omid
+University of Maine|Gallant, Aaron
+University of Maryland-College Park|Aydilek, Ahmet H.
+University of Massachusetts-Amherst|DeGroot, Don
+University of Massachusetts-Dartmouth|Samarakoon, Radhavi
+University of Massachusetts-Lowell|Kurup, Pradeep
+University of Memphis|Arellano, David
+University of Michigan|Garcia, Estéfan
+University of Minnesota|
+University of Mississippi|Oommen, Thomas
+University of Missouri-Columbia|
+University of Mount Union|
+University of Nebraska – Lincoln|Kim, Seunghee
+University of Nevada-Las Vegas|
+University of Nevada-Reno|Motamed, Ramin
+University of New Hampshire|Ghayoomi, Majid
+University of New Haven|Champagne, Cassandra
+University of New Orleans|Ghose Hajra, Malay
+University of North Carolina-Charlotte|Warren, Kimberly
+University of North Florida|Shamet, Ryan
+University of North Georgia|Mallett, Seth
+University of Notre Dame|Culligan, Patricia
+University of Oklahoma|Hatami, Kianoosh
+University of Pittsburgh Johnstown|Kunberger, Tanya
+University of Puerto Rico-Mayaguez|Morales, Alesandra
+University of Rhode Island|Baxter, Chris
+University of Saint Thomas|Kang, Mingu
+University of Saskatchewan|Elwood, David
+University of Sharjah|Arab, Mohamed G.
+University of South Alabama|Steward, Eric J.
+University of South Carolina|Gassman, Sarah
+University of Southern California|Nweke, Chukwuebuka
+University of Tennessee-Knoxville|Alshibli, Khalid A.
+University of Texas – El Paso|Kim, Yong Je
+University of Texas-Arlington|Yu, Xinbao
+University of Texas-Austin|Stokoe II, Kenneth H.
+University of Texas-Rio Grande Valley|Pham, Thang
+University of Texas-San Antonio|Huang, Jie
+University of Toledo|Hu, Liangbo
+University of Utah|Roshankhah, Shahrzad
+University of Vermont|Dewoolkar, Mandar
+University of Virginia|Burden, Lindsay
+University of Washington|Wartman, Joseph
+University of Wisconsin-Madison|Tinjum, James M.
+University of Wisconsin-Milwaukee|Titi, Hani
+University of Wisconsin-Platteville|
+University of Wyoming|Ng, Kam
+Utah State University|Cox, Brady
+Villanova University|Sample-Lord, Kristin
+Virginia Tech|Green, Russell
+Washington State University|Carraro, Antonio
+West Virginia University|Quaranta, John
+Western New England University|Luo, Shengmin
+Western University|Newson, Tim
+Widener University|Tang, Xiaochao
+Youngstown State University|

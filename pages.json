@@ -1,0 +1,448 @@
+{
+  "index.html": {
+    "title": "USUCGER — U.S. Universities Council on Geotechnical Education and Research",
+    "description": "USUCGER advocates for high-quality geomechanical, geotechnical and geoenvironmental engineering research and education at U.S. universities. Founded 1985.",
+    "cta": false
+  },
+  "about.html": {
+    "title": "History &amp; Mission — USUCGER",
+    "description": "How USUCGER was founded in 1985, its mission, long-term objectives and the composition of the organization.",
+    "eyebrow": "About USUCGER",
+    "h1": "History &amp; Mission",
+    "lead": "USUCGER was born at the 1985 San Francisco International Conference on Soil Mechanics and Foundation Engineering, to preserve and grow research funding for the geomechanical, geotechnical and geoenvironmental community.",
+    "crumbs": [
+      [
+        "About",
+        null
+      ],
+      [
+        "History &amp; Mission",
+        null
+      ]
+    ],
+    "actions": [
+      [
+        "Read the By-Laws &rarr;",
+        "bylaws.html",
+        "btn-amber"
+      ],
+      [
+        "Meet the Board",
+        "board.html",
+        "btn-ghost"
+      ]
+    ]
+  },
+  "bylaws.html": {
+    "title": "By-Laws — USUCGER",
+    "description": "The complete USUCGER by-laws: purpose, scope, membership, functions, meetings, board of directors, officers, standing committees, amendments, dues and reporting.",
+    "eyebrow": "Governance",
+    "h1": "USUCGER By-Laws",
+    "lead": "Eleven articles governing the purpose, membership, board, officers and committees of the Council. Use the contents panel to jump to any article.",
+    "crumbs": [
+      [
+        "About",
+        null
+      ],
+      [
+        "By-Laws",
+        null
+      ]
+    ]
+  },
+  "board.html": {
+    "title": "Board of Directors — USUCGER",
+    "description": "Current USUCGER Board of Directors: officers, senior and junior board members, terms and institutions.",
+    "eyebrow": "Leadership",
+    "h1": "Board of Directors",
+    "lead": "The Board is comprised of elected members drawn from the geotechnical faculty pool across the nation — four senior and four junior directors serving staggered four-year terms, plus ex-officio members.",
+    "crumbs": [
+      [
+        "About",
+        null
+      ],
+      [
+        "Board of Directors",
+        null
+      ]
+    ],
+    "actions": [
+      [
+        "Email the Board &rarr;",
+        "mailto:uboard@usucger.org",
+        "btn-amber"
+      ],
+      [
+        "Election rules in the By-Laws",
+        "bylaws.html#article-vi",
+        "btn-ghost"
+      ]
+    ]
+  },
+  "contact.html": {
+    "title": "Contact USUCGER",
+    "description": "How to reach USUCGER — webmaster, board, posting a faculty position, membership and email list questions.",
+    "eyebrow": "Get in touch",
+    "h1": "Contact USUCGER",
+    "lead": "Whatever you need — a job posting, a membership question, a correction to the directory, or a conference announcement — start here.",
+    "crumbs": [
+      [
+        "Contact",
+        null
+      ]
+    ],
+    "cta": false
+  },
+  "membership.html": {
+    "title": "Membership &amp; Dues — USUCGER",
+    "description": "USUCGER membership categories, eligibility, dues for the 2025–2027 three-year cycle, and how to join or renew.",
+    "eyebrow": "Membership &amp; Dues",
+    "h1": "Join the USUCGER Community",
+    "lead": "Participation of all people with a vested interest in geotechnical research and teaching is encouraged. Current cycle: January 2025 – December 2027 at $75 per person.",
+    "crumbs": [
+      [
+        "Members",
+        null
+      ],
+      [
+        "Membership &amp; Dues",
+        null
+      ]
+    ],
+    "actions": [
+      [
+        "Purchase University Membership &rarr;",
+        "https://usucger.org/membership/usucger-3-year-membership-us-universities-2025-2027/",
+        "btn-amber"
+      ],
+      [
+        "Associate Membership",
+        "https://usucger.org/membership/usucger-3-year-membership-associate-2025-2027/",
+        "btn-ghost"
+      ]
+    ],
+    "cta": false
+  },
+  "directory.html": {
+    "title": "Membership Directory — USUCGER",
+    "description": "Searchable directory of USUCGER members for the 2025–2027 dues cycle, with name and affiliation.",
+    "eyebrow": "Members",
+    "h1": "Membership Directory",
+    "lead": "Members with dues paid for the 2025–2027 cycle. Search by name or institution, or sort any column. Not listed and think you should be? Email the webmaster.",
+    "crumbs": [
+      [
+        "Members",
+        null
+      ],
+      [
+        "Membership Directory",
+        null
+      ]
+    ]
+  },
+  "universities.html": {
+    "title": "Member Universities — USUCGER",
+    "description": "USUCGER member universities and their designated contact persons.",
+    "eyebrow": "Members",
+    "h1": "Member Universities",
+    "lead": "Institutional geotechnical programs represented in USUCGER, with the contact person designated by each institution.",
+    "crumbs": [
+      [
+        "Members",
+        null
+      ],
+      [
+        "Member Universities",
+        null
+      ]
+    ]
+  },
+  "awards.html": {
+    "title": "Awards — USUCGER",
+    "description": "USUCGER awards for research, education, service and inclusion, with eligibility criteria and the complete list of past recipients.",
+    "eyebrow": "Recognition",
+    "h1": "Awards for Research, Service &amp; Education",
+    "lead": "Honoring outstanding contributions to geotechnical engineering — from early career breakthroughs to lifetime service and sustained commitment to inclusion. Four awards, twenty-nine recipients since 1998.",
+    "crumbs": [
+      [
+        "Activities",
+        null
+      ],
+      [
+        "Awards",
+        null
+      ]
+    ],
+    "actions": [
+      [
+        "Nominate a colleague &rarr;",
+        "mailto:uboard@usucger.org?subject=USUCGER%20Award%20Nomination",
+        "btn-amber"
+      ],
+      [
+        "Recipient history",
+        "#history",
+        "btn-ghost"
+      ]
+    ]
+  },
+  "travel-grants.html": {
+    "title": "Student Travel Grants — USUCGER",
+    "description": "USUCGER student travel grants of up to $1,000 for graduate and undergraduate students presenting research at conferences. Deadlines and eligibility.",
+    "eyebrow": "Student Support",
+    "h1": "Student Travel Grants",
+    "lead": "Up to $1,000 per student toward airfare, hotel, per diem and conference registration for students presenting accepted research, advised by a USUCGER member. Two application cycles a year.",
+    "crumbs": [
+      [
+        "Activities",
+        null
+      ],
+      [
+        "Student Travel Grants",
+        null
+      ]
+    ],
+    "actions": [
+      [
+        "Download application info &rarr;",
+        "https://usucger.org/wp-content/uploads/2025-USUCGER-Student-Travel-Award-Spring-2026.pdf",
+        "btn-amber"
+      ]
+    ]
+  },
+  "research-grants.html": {
+    "title": "Small Research Grants — USUCGER",
+    "description": "USUCGER small research grants supporting geotechnical education projects, with outcomes and deliverables from funded projects.",
+    "eyebrow": "Activities",
+    "h1": "Small Research Grants",
+    "lead": "USUCGER seed funding for projects that improve how geotechnical engineering is taught. Every funded project delivers free, reusable material for the whole community.",
+    "crumbs": [
+      [
+        "Activities",
+        null
+      ],
+      [
+        "Small Research Grants",
+        null
+      ]
+    ]
+  },
+  "minutes.html": {
+    "title": "Meeting Minutes — USUCGER",
+    "description": "Archive of USUCGER board and general membership meeting minutes from 1996 to the present.",
+    "eyebrow": "Activities",
+    "h1": "Meeting Minutes",
+    "lead": "Board and general membership meeting minutes, 1996 to present. The annual business meeting is typically held at the ASCE Geo-Congress.",
+    "crumbs": [
+      [
+        "Activities",
+        null
+      ],
+      [
+        "Meeting Minutes",
+        null
+      ]
+    ]
+  },
+  "teaching-aids.html": {
+    "title": "Teaching Aids — USUCGER",
+    "description": "Free teaching aids for geotechnical engineering: active-learning activities, course notes, modules, lab test videos and workshop materials.",
+    "eyebrow": "Resources &amp; Media",
+    "h1": "Teaching Aids",
+    "lead": "Free, classroom-ready material contributed by the USUCGER community and allied organizations — activities, modules, course notes, exam banks and lab demonstrations.",
+    "crumbs": [
+      [
+        "Resources",
+        null
+      ],
+      [
+        "Teaching Aids",
+        null
+      ]
+    ]
+  },
+  "books.html": {
+    "title": "Books &amp; Publications — USUCGER",
+    "description": "Free full-text conference proceedings and books of geotechnical interest, including CPT, site characterization and flat dilatometer symposia.",
+    "eyebrow": "Resources &amp; Media",
+    "h1": "Books &amp; Publications",
+    "lead": "Conference proceedings released free in full text, plus a curated shelf of books of geotechnical interest.",
+    "crumbs": [
+      [
+        "Resources",
+        null
+      ],
+      [
+        "Books &amp; Publications",
+        null
+      ]
+    ]
+  },
+  "software.html": {
+    "title": "Software &amp; Data — USUCGER",
+    "description": "Geotechnical software directories, open-source packages, simulators and test databases for teaching and research.",
+    "eyebrow": "Resources &amp; Media",
+    "h1": "Software &amp; Data",
+    "lead": "Directories, open-source packages, virtual laboratories and experimental databases for geotechnical teaching and research.",
+    "crumbs": [
+      [
+        "Resources",
+        null
+      ],
+      [
+        "Software &amp; Data",
+        null
+      ]
+    ]
+  },
+  "videos.html": {
+    "title": "Videos &amp; Webinars — USUCGER",
+    "description": "Free recorded lectures, webinar series and laboratory test videos in geotechnical and geoenvironmental engineering.",
+    "eyebrow": "Resources &amp; Media",
+    "h1": "Videos &amp; Webinars",
+    "lead": "Complete recorded courses, international webinar series and a full soil mechanics laboratory on video — all free.",
+    "crumbs": [
+      [
+        "Resources",
+        null
+      ],
+      [
+        "Videos &amp; Webinars",
+        null
+      ]
+    ]
+  },
+  "funding-tips.html": {
+    "title": "Funding Tips — USUCGER",
+    "description": "Do's and don'ts in obtaining funding for geotechnical engineering research, from experienced researchers.",
+    "eyebrow": "Resources &amp; Media",
+    "h1": "Funding Tips",
+    "lead": "Observations on the do's and don'ts of winning research funding, collected from experienced geotechnical researchers to help early career faculty compete well.",
+    "crumbs": [
+      [
+        "Resources",
+        null
+      ],
+      [
+        "Funding Tips",
+        null
+      ]
+    ],
+    "actions": [
+      [
+        "Download the guide (PDF) &rarr;",
+        "https://usucger.org/wp-content/uploads/DOS_AND_DONTS-3.pdf",
+        "btn-amber"
+      ]
+    ]
+  },
+  "positions.html": {
+    "title": "Academic Positions — USUCGER",
+    "description": "Open geotechnical engineering faculty positions posted by USUCGER member institutions. Free to post.",
+    "eyebrow": "Careers",
+    "h1": "Academic Positions",
+    "lead": "Geotechnical faculty, lecturer and research openings shared by member institutions — the page our community checks first. Posting is free for USUCGER members; listings run for one year.",
+    "crumbs": [
+      [
+        "Positions",
+        null
+      ],
+      [
+        "Academic Positions",
+        null
+      ]
+    ],
+    "actions": [
+      [
+        "Post a position &rarr;",
+        "mailto:webmaster@usucger.org?subject=Academic%20Position%20Posting",
+        "btn-amber"
+      ],
+      [
+        "Industry &amp; agency positions",
+        "industry-positions.html",
+        "btn-ghost"
+      ]
+    ]
+  },
+  "industry-positions.html": {
+    "title": "Industry &amp; Agency Positions — USUCGER",
+    "description": "Geotechnical positions in consulting, contracting, instrumentation, software and government agencies, shared with the USUCGER community.",
+    "eyebrow": "Positions",
+    "h1": "Industry &amp; Agency Positions",
+    "lead": "A board for geotechnical roles outside the university — consulting, contracting, instrumentation, software and public agencies — reaching faculty and the graduate students they advise.",
+    "crumbs": [
+      [
+        "Positions",
+        null
+      ],
+      [
+        "Industry &amp; Agency Positions",
+        null
+      ]
+    ],
+    "actions": [
+      [
+        "Submit a listing &rarr;",
+        "mailto:webmaster@usucger.org?subject=Industry%20Position%20Posting",
+        "btn-amber"
+      ],
+      [
+        "Academic positions",
+        "positions.html",
+        "btn-ghost"
+      ]
+    ]
+  },
+  "photos.html": {
+    "title": "Photo Collections — USUCGER",
+    "description": "Photo collections of geotechnical interest for teaching and presentations.",
+    "eyebrow": "Resources &amp; Media",
+    "h1": "Photo Collections",
+    "lead": "Image libraries you can draw on for lectures, presentations and course material.",
+    "crumbs": [
+      [
+        "Resources",
+        null
+      ],
+      [
+        "Photo Collections",
+        null
+      ]
+    ]
+  },
+  "conferences.html": {
+    "title": "Conferences — USUCGER",
+    "description": "Upcoming geotechnical conferences shared by USUCGER members, with dates, locations and links.",
+    "eyebrow": "Events",
+    "h1": "Conferences",
+    "lead": "Conferences shared by USUCGER members. A more comprehensive international list is maintained by ISSMGE.",
+    "crumbs": [
+      [
+        "Events",
+        null
+      ],
+      [
+        "Conferences",
+        null
+      ]
+    ]
+  },
+  "workshops.html": {
+    "title": "Workshops — USUCGER",
+    "description": "USUCGER workshops for geotechnical faculty, including teaching strategies and resources workshops.",
+    "eyebrow": "Events",
+    "h1": "Workshops",
+    "lead": "USUCGER-organized workshops for geotechnical faculty, and the materials they produced.",
+    "crumbs": [
+      [
+        "Events",
+        null
+      ],
+      [
+        "Workshops",
+        null
+      ]
+    ]
+  }
+}

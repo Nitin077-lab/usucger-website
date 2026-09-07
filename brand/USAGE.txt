@@ -1,0 +1,30 @@
+USUCGER LOGO PACK
+=================
+
+Files
+  logo/*.svg        Vector masters. Text is outlined; no fonts needed. Use these
+                    wherever possible (Illustrator, InDesign, Inkscape, web,
+                    PowerPoint 2016+, Word 2016+, Google Slides).
+  png/*.png         3000 px wide transparent PNGs for older Office versions and
+                    email signatures.
+  USUCGER-logo-sheet.pdf   One vector PDF of every variant, for printers.
+
+Which file to use
+  usucger-logo-horizontal            default on white/light backgrounds
+  usucger-logo-horizontal-reversed   on cobalt (#102747) or dark backgrounds
+  usucger-logo-horizontal-fullname   letterhead, certificates, formal documents
+  usucger-logo-stacked               square spaces, posters, slide title pages
+  usucger-logo-*-mono-black/white    single-ink print, engraving, embroidery, fax
+  usucger-mark                       favicons, avatars, stamps, or beside the name
+  usucger-icon                       app icon / social profile picture
+
+Colours (theme: Strata - cobalt & amber)
+  Cobalt Deep  #102747   Cobalt #1B3F6E   Cobalt Bright #2554A0
+  Amber        #C47A1A   Amber Highlight #FCD87A
+  Typefaces: Fraunces (wordmark, headings), Figtree (tagline, body) - Google Fonts.
+
+Rules
+  Keep clear space equal to the height of the wordmark's U on all sides.
+  Minimum width: horizontal lockup 32 mm / 120 px; mark alone 8 mm / 30 px.
+  Do not stretch, rotate, recolour, add effects, or re-set the wordmark in
+  another typeface.

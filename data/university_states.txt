@@ -1,0 +1,185 @@
+Angelo State University|TX
+Arizona State University|AZ
+Auburn University|AL
+Boise State University|ID
+Brigham Young University|UT
+Bucknell University|PA
+California Baptist University|CA
+California Institute of Technology|CA
+California Polytechnic State University, San Luis Obispo|CA
+California State Polytechnic University, Pomona|CA
+California State University-Fresno|CA
+California State University-Fullerton|CA
+California State University-Long Beach|CA
+California State University-Los Angeles|CA
+Carnegie Mellon University|PA
+Case Western Reserve University|OH
+Clarkson University|NY
+Clemson University|SC
+Colorado School of Mines|CO
+Colorado State University|CO
+Columbia University|NY
+Drexel University|PA
+Duke University|NC
+Embry Riddle Aeronautical University|FL
+Florida Atlantic University|FL
+Florida Gulf Coast University|FL
+Florida State University|FL
+George Mason University|VA
+Georgia Institute of Technology|GA
+Georgia Southern University|GA
+Howard University|DC
+Imperial College London|INTL
+Iowa State University|IA
+Jackson State University|MS
+Kansas State University|KS
+Lafayette College|PA
+Lamar University|TX
+Lawrence Technological University|MI
+Lehigh University|PA
+Louisiana State University|LA
+Louisiana Tech University|LA
+Manhattan University|NY
+Marian University|IN
+Massachusetts Institute of Technology|MA
+Memorial University of Newfoundland|INTL
+Merrimack College|MA
+Michigan State University|MI
+Michigan Technological University|MI
+Military Technological College|INTL
+Milwaukee School of Engineering|WI
+Mississippi State University|MS
+Missouri University of Science and Technology|MO
+Montana State University|MT
+Montana Technological University|MT
+New Jersey Institute of Technology|NJ
+New Mexico State University|NM
+New York University|NY
+North Carolina State University|NC
+Northeastern University|MA
+Northwestern University|IL
+Ohio University|OH
+Oklahoma State University|OK
+Old Dominion University|VA
+Oregon Institute of Technology|OR
+Oregon State University|OR
+Pennsylvania State University|PA
+Pennsylvania State University-Harrisburg|PA
+Polytechnique Montreal|INTL
+Purdue University|IN
+Purdue University Fort Wayne|IN
+Rensselaer Polytechnic Institute|NY
+Roger Williams University|RI
+Rose Hulman Institute of Technology|IN
+Rowan University|NJ
+Rutgers University|NJ
+SUNY Polytechnic Institute|NY
+Saint Louis University|MO
+San Diego State University|CA
+San Jose State University|CA
+Santa Clara University|CA
+South Carolina State University|SC
+South Dakota School of Mines and Technology|SD
+South Dakota State University|SD
+Southern Illinois University Carbondale|IL
+Southern Illinois University Edwardsville|IL
+Southern Methodist University|TX
+Stanford University|CA
+Stony Brook University|NY
+Swarthmore College|PA
+Syracuse University|NY
+Temple University|PA
+Tennessee State University|TN
+Tennessee Technological University|TN
+Texas A&M University|TX
+Texas A&M University – Corpus Christi|TX
+Texas State University|TX
+Texas Tech University|TX
+The Citadel|SC
+The City College of New York|NY
+The College of New Jersey|NJ
+The Cooper Union for the Advancement of Science and Art|NY
+The Ohio State University|OH
+Tufts University|MA
+United States Air Force Academy|CO
+United States Coast Guard Academy|CT
+University of Akron|OH
+University of Alaska-Fairbanks|AK
+University of Alberta|INTL
+University of Arkansas|AR
+University of Buffalo|NY
+University of California-Berkeley|CA
+University of California-Davis|CA
+University of California-Los Angeles|CA
+University of California-San Diego|CA
+University of Central Florida|FL
+University of Cincinnati|OH
+University of Colorado-Boulder|CO
+University of Colorado-Denver|CO
+University of Dayton|OH
+University of Delaware|DE
+University of Florida|FL
+University of Georgia|GA
+University of Hawaii at Manoa|HI
+University of Houston|TX
+University of Idaho|ID
+University of Illinois at Urbana-Champaign|IL
+University of Illinois-Chicago|IL
+University of Kansas|KS
+University of Kentucky|KY
+University of Louisville|KY
+University of Maine|ME
+University of Maryland-College Park|MD
+University of Massachusetts-Amherst|MA
+University of Massachusetts-Dartmouth|MA
+University of Massachusetts-Lowell|MA
+University of Memphis|TN
+University of Michigan|MI
+University of Minnesota|MN
+University of Mississippi|MS
+University of Missouri-Columbia|MO
+University of Mount Union|OH
+University of Nebraska – Lincoln|NE
+University of Nevada-Las Vegas|NV
+University of Nevada-Reno|NV
+University of New Hampshire|NH
+University of New Haven|CT
+University of New Orleans|LA
+University of North Carolina-Charlotte|NC
+University of North Florida|FL
+University of North Georgia|GA
+University of Notre Dame|IN
+University of Oklahoma|OK
+University of Pittsburgh Johnstown|PA
+University of Puerto Rico-Mayaguez|PR
+University of Rhode Island|RI
+University of Saint Thomas|MN
+University of Saskatchewan|INTL
+University of Sharjah|INTL
+University of South Alabama|AL
+University of South Carolina|SC
+University of Southern California|CA
+University of Tennessee-Knoxville|TN
+University of Texas – El Paso|TX
+University of Texas-Arlington|TX
+University of Texas-Austin|TX
+University of Texas-Rio Grande Valley|TX
+University of Texas-San Antonio|TX
+University of Toledo|OH
+University of Utah|UT
+University of Vermont|VT
+University of Virginia|VA
+University of Washington|WA
+University of Wisconsin-Madison|WI
+University of Wisconsin-Milwaukee|WI
+University of Wisconsin-Platteville|WI
+University of Wyoming|WY
+Utah State University|UT
+Villanova University|PA
+Virginia Tech|VA
+Washington State University|WA
+West Virginia University|WV
+Western New England University|MA
+Western University|INTL
+Widener University|PA
+Youngstown State University|OH

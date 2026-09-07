@@ -1,0 +1,36 @@
+{
+  "awards": [
+    {"key": "ecr", "name": "Early Career Researcher Award", "icon": "&#128300;", "freq": "Every 2 years", "active": true,
+     "desc": "For tenure-track or tenured faculty affiliates of USUCGER-member institutions who have made significant and innovative contributions to research in geotechnical engineering. Nominees may not exceed 45 years of age or 12 years from the PhD, whichever is more restrictive.",
+     "recipients": [["Sheng Dai", 2025, "Georgia Institute of Technology"], ["Alba Yerro-Colom", 2023, "Virginia Tech"], ["Michelle Barry", 2023, "University of Arkansas"], ["Brett Maurer", 2021, "University of Washington"], ["Brina Montoya", 2021, "North Carolina State University"]]},
+    {"key": "ece", "name": "Early Career Educator Award", "icon": "&#128214;", "freq": "Every 2 years", "active": true,
+     "desc": "For tenure-track or tenured faculty affiliates who have provided exceptional educational and professional development services to the USUCGER community. The same age and post-PhD limits apply as for the researcher award.",
+     "recipients": [["Cheng Zhu", 2026, "Rowan University"], ["Katerina Ziotopoulou", 2024, "University of California, Davis"], ["Cassandra Rutherford", 2022, "Iowa State University"], ["James Kaklamanos", 2022, "Merrimack College"]]},
+    {"key": "dsa", "name": "Distinguished Service Award", "icon": "&#127963;", "freq": "Every 2 years", "active": true,
+     "desc": "For affiliates of USUCGER-member institutions who have given distinguished service to USUCGER. Eligible nominees can be at any rank or position — there is no career-stage restriction.",
+     "recipients": [["Ed Kavazanjian", 2025, "Arizona State University"], ["Jean-Louis Briaud", 2020, "Texas A&M University"], ["Rick Fragaszy", 2020, ""], ["Tuncer Edil", 2007, "University of Wisconsin–Madison"], ["Deborah Goodings", 2003, ""], ["Roman Hryciw", 2000, "University of Michigan"], ["Mehmet Tumay", 1998, "Louisiana State University"]]},
+    {"key": "dei", "name": "Diversity, Equity & Inclusion Award", "icon": "&#127760;", "freq": "Every 3 years", "active": true,
+     "desc": "For champions who demonstrate strong and sustained commitment to promoting diversity, equity and inclusion in geotechnical engineering. Eligible nominees can be at any rank or position.",
+     "recipients": [["Adda Athanasopoulos-Zekkos", 2026, "University of California, Berkeley"], ["Shobha Bhatia", 2024, "Syracuse University"], ["Christopher Swan", 2022, "Tufts University"], ["Andrea Welker", 2022, "The College of New Jersey"]]},
+    {"key": "dr", "name": "Distinguished Researcher Award", "icon": "&#128218;", "freq": "Discontinued", "active": false,
+     "desc": "No longer awarded. Recipients listed for historical reference.",
+     "recipients": [["Tuncer Edil", 2008, ""], ["Kenneth H. Stokoe", 2005, "University of Texas at Austin"]]},
+    {"key": "de", "name": "Distinguished Educator Award", "icon": "&#127891;", "freq": "Discontinued", "active": false,
+     "desc": "No longer awarded. Recipients listed for historical reference.",
+     "recipients": [["Frank C. Townsend", 2006, ""], ["David Elton", 2002, ""]]},
+    {"key": "ria", "name": "Research Investment Award", "icon": "&#128176;", "freq": "Discontinued", "active": false,
+     "desc": "No longer awarded. Recipients listed for historical reference.",
+     "recipients": [["Roy Olson", 2007, ""], ["Albert F. Dimillio", 2004, ""], ["Cliff Astill", 2001, ""], ["S. Scot Litke", 2000, ""], ["Joseph P. Welsh", 1998, ""]]}
+  ],
+  "featured_year": 2026,
+  "featured": [
+    {"name": "Cheng Zhu", "award": "Early Career Educator Award", "inst": "Rowan University", "photo": "assets/awards/cheng-zhu.jpg",
+     "composite": "https://usucger.org/wp-content/uploads/2026-awards.jpg", "crop": "left"},
+    {"name": "Adda Athanasopoulos-Zekkos", "award": "Diversity, Equity & Inclusion Award", "inst": "University of California, Berkeley", "photo": "assets/awards/adda-athanasopoulos-zekkos.jpg",
+     "composite": "https://usucger.org/wp-content/uploads/2026-awards.jpg", "crop": "right"}
+  ],
+  "photos": {
+    "Sheng Dai": "assets/awards/sheng-dai.jpg",
+    "Ed Kavazanjian": "assets/board/../awards/ed-kavazanjian.jpg"
+  }
+}

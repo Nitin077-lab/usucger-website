@@ -1,0 +1,13 @@
+[
+  {"slug":"diane-moug","name":"Diane Moug","role":"President","seat":"junior","inst":"Portland State University","term":"2022–2027","photo":"https://usucger.org/wp-content/uploads/Moug2-1-768x568-crop-300x222.jpg"},
+  {"slug":"james-kaklamanos","name":"James Kaklamanos","role":"Secretary","seat":"senior","inst":"Merrimack College","term":"2023–2027","photo":"https://usucger.org/wp-content/uploads/kaklamanos_Headshot_v1-300x264.jpg"},
+  {"slug":"estefan-garcia","name":"Estéfan Garcia","role":"Membership Coordinator","seat":"junior","inst":"University of Michigan","term":"2023–2027","photo":"https://garcialab.engin.umich.edu/wp-content/uploads/sites/509/2020/11/ProfilePhoto_FEG-300x300.jpg"},
+  {"slug":"lisa-star","name":"Lisa Star","role":"Board Member","seat":"senior","inst":"California State University, Long Beach","term":"2024–2028","photo":"https://usucger.org/wp-content/uploads/Lisa-Star-300x296.jpg"},
+  {"slug":"ryan-shamet","name":"Ryan Shamet","role":"Board Member","seat":"junior","inst":"University of North Florida","term":"2024–2028","photo":"https://usucger.org/wp-content/uploads/Ryan-Shamet.jpg"},
+  {"slug":"marika-santagata","name":"Marika Santagata","role":"Board Member","seat":"senior","inst":"Purdue University","term":"2025–2029","photo":"https://usucger.org/wp-content/uploads/marika-Santagata_v2-300x294.jpg"},
+  {"slug":"kaleigh-yost","name":"Kaleigh Yost","role":"Board Member","seat":"junior","inst":"Penn State","term":"2025–2029","photo":"https://usucger.org/wp-content/uploads/Kaleigh-Yost-240x300.jpg"},
+  {"slug":"alejandro-martinez","name":"Alejandro Martinez","role":"Board Member","seat":"senior","inst":"University of California, Davis","term":"2026–2030","photo":"https://usucger.org/wp-content/uploads/headshot-alejandro-martinez3-257x300-1.jpg"},
+  {"slug":"chukwuebuka-nweke","name":"Chukwuebuka Nweke","role":"Webmaster","seat":"junior","inst":"University of Southern California","term":"2026–2030","photo":"https://usucger.org/wp-content/uploads/Nweke.jpg"},
+  {"slug":"jack-montgomery","name":"Jack Montgomery","role":"Ex-Officio","seat":"ex","inst":"Auburn University","term":"","photo":"https://usucger.org/wp-content/uploads/jack-montgomery-crop-2-300x300.jpg"},
+  {"slug":"joseph-coe","name":"Joseph Coe","role":"Ex-Officio","seat":"ex","inst":"San Jose State University","term":"","photo":"https://usucger.org/wp-content/uploads/Joe-Coe.jpg"}
+]
