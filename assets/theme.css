@@ -1,0 +1,28 @@
+/* generated from theme.json — active theme: strata (Strata — cobalt & amber). Do not edit; edit theme.json and rebuild. */
+:root{
+  --primary-dk:#102747;
+  --primary:#1B3F6E;
+  --primary-md:#2554A0;
+  --primary-lt:#EBF1FB;
+  --primary-lt2:#5B86CC;
+  --accent:#C47A1A;
+  --accent-dk:#B06A10;
+  --accent-lt:#FDF4E3;
+  --accent-pale:#FEF9F0;
+  --accent-hi:#FCD87A;
+  --sand:#F5F1E9;
+  --border:#E3DDD2;
+  --border-dk:#CBC3B5;
+  --ink:#181818;
+  --ink-2:#343434;
+  --muted:#686460;
+  --muted-lt:#9B9690;
+  --link:#0A6B6E;
+  --link-lt:#E4F4F4;
+  --on-dark-link:#93C5FD;
+  --primary-rgb:27,63,110;
+  --primary-dk-rgb:16,39,71;
+  --primary-md-rgb:37,84,160;
+  --accent-rgb:196,122,26;
+  --link-rgb:10,107,110;
+}
