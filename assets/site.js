@@ -2,15 +2,27 @@
 (function () {
   'use strict';
 
-  /* ---------- reveal on scroll ---------- */
-  var rv = document.querySelectorAll('.rv');
+  /* ---------- reveal on scroll ----------
+     threshold MUST stay 0: a ratio-based threshold can never be reached by a
+     block taller than ~12x the viewport (the by-laws column is ~10,000px), which
+     left those pages permanently invisible. revealVisible() is the failsafe. */
+  var rv = [].slice.call(document.querySelectorAll('.rv'));
+  function reveal(el) { el.classList.add('show'); }
+  function revealVisible() {
+    rv.forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight && r.bottom > 0) reveal(el);
+    });
+  }
   if ('IntersectionObserver' in window && rv.length) {
     var ro = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('show'); ro.unobserve(e.target); } });
-    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+      es.forEach(function (e) { if (e.isIntersecting) { reveal(e.target); ro.unobserve(e.target); } });
+    }, { threshold: 0, rootMargin: '0px 0px -60px 0px' });
     rv.forEach(function (el) { ro.observe(el); });
+    window.addEventListener('load', revealVisible);
+    setTimeout(revealVisible, 1500);
   } else {
-    rv.forEach(function (el) { el.classList.add('show'); });
+    rv.forEach(reveal);
   }
 
   /* ---------- sticky nav shadow + back to top ---------- */
@@ -59,7 +71,10 @@
         var id = btn.getAttribute('data-tab');
         btns.forEach(function (b) { b.classList.toggle('on', b === btn); b.setAttribute('aria-selected', b === btn); });
         group.parentElement.querySelectorAll('.tab-panel').forEach(function (p) {
-          p.classList.toggle('on', p.getAttribute('data-panel') === id);
+          var on = p.getAttribute('data-panel') === id;
+          p.classList.toggle('on', on);
+          // a panel that was display:none never fired the observer — reveal it now
+          if (on) p.querySelectorAll('.rv').forEach(reveal);
         });
       });
     });

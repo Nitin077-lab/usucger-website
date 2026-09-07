@@ -1,0 +1,21 @@
+USUCGER — by-laws visibility fix
+================================
+Unzip this INTO your existing ~/Documents/usucger folder, overwriting when asked.
+It contains ONLY the changed files. It does NOT contain a .git folder, so your
+GitHub remote and history stay exactly as they are.
+
+Files in this update:
+  assets/site.js          <- the actual fix (scroll-reveal + tab panels)
+  assets/site.css         <- fixes three self-referencing colour variables
+  assets/search-index.js  <- rebuilt search index
+  awards.html             <- rebuilt page
+  pages/awards.html       <- source for the above
+  gen_extra.py            <- generator for the awards page
+
+Then, in Terminal:
+  cd ~/Documents/usucger
+  git add -A
+  git commit -m "Fix by-laws visibility and tab panels"
+  git push
+
+GitHub Pages redeploys about a minute later.
