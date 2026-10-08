@@ -277,7 +277,7 @@ SHELL = """<!DOCTYPE html>
     <div class="footer-bottom">
       <span>&copy; <span data-now-year>2026</span> USUCGER. All rights reserved.</span>
       <span>Contact: <a href="mailto:{contact}">{contact}</a></span>
-      <span class="footer-credit">Website designed by Nitin Tiwari, Southern Illinois University Carbondale</span>
+      <span class="footer-credit">Website designed by Dr. Nitin Tiwari, Southern Illinois University Carbondale, IL</span>
     </div>
   </div>
 </footer>

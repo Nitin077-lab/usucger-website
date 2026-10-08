@@ -100,22 +100,22 @@
 .hero{background:var(--cobalt-dk);position:relative;overflow:hidden}
 .hero-grid{display:grid;grid-template-columns:1fr 420px;align-items:stretch;position:relative;z-index:2}
 .hero-glow{position:absolute;top:-20%;left:-10%;width:70%;height:120%;pointer-events:none;background:radial-gradient(ellipse at 30% 40%,rgba(var(--primary-md-rgb),.5) 0%,transparent 60%)}
-.hero-left{padding:4.6rem 3.5rem 3.6rem 0;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2;max-width:660px;margin-left:auto;width:100%}
-.hero-kicker{display:inline-flex;align-items:center;gap:9px;background:rgba(var(--accent-rgb),.15);border:1px solid rgba(var(--accent-rgb),.3);color:var(--amber-hi);padding:.38rem .95rem;border-radius:3px;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:1.6rem;width:fit-content}
-.hero h1{color:#fff;margin-bottom:1.25rem}
+.hero-left{padding:2.8rem 3.5rem 2.6rem 0;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2;max-width:660px;margin-left:auto;width:100%}
+.hero-kicker{display:inline-flex;align-items:center;gap:9px;background:rgba(var(--accent-rgb),.15);border:1px solid rgba(var(--accent-rgb),.3);color:var(--amber-hi);padding:.38rem .95rem;border-radius:3px;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:1.15rem;width:fit-content}
+.hero h1{color:#fff;margin-bottom:1rem;font-size:clamp(2rem,3.3vw,2.85rem);line-height:1.12}
 .hero h1 em{font-style:italic;color:var(--amber-hi)}
-.hero-lead{font-size:1.02rem;color:rgba(255,255,255,.62);line-height:1.9;max-width:520px;margin-bottom:2.2rem;font-weight:300}
-.hero-actions{display:flex;gap:.85rem;flex-wrap:wrap;margin-bottom:2.8rem}
+.hero-lead{font-size:1rem;color:rgba(255,255,255,.62);line-height:1.7;max-width:540px;margin-bottom:1.6rem;font-weight:300}
+.hero-actions{display:flex;gap:.85rem;flex-wrap:wrap;margin-bottom:1.9rem}
 .hero-stats{display:flex;gap:3rem;flex-wrap:wrap}
 .hstat-n{font-family:'Fraunces',serif;font-size:2.5rem;font-weight:700;color:#fff;line-height:1;display:block;letter-spacing:-1px}
 .hstat-n em{font-style:normal;color:var(--amber-hi);font-size:1.7rem}
 .hstat-l{font-size:.72rem;color:rgba(255,255,255,.42);font-weight:500;text-transform:uppercase;letter-spacing:.1em;margin-top:6px}
 .hero-right{background:rgba(255,255,255,.04);border-left:1px solid rgba(255,255,255,.08);display:flex;flex-direction:column;position:relative;z-index:2}
-.hero-band{display:block;width:100%;height:150px;position:relative;z-index:1}
+.hero-band{display:block;width:100%;height:90px;position:relative;z-index:1}
 .hbul-head{padding:1.1rem 1.5rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,.08);font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4)}
 .hbul-live{display:flex;align-items:center;gap:6px;font-size:.7rem;color:rgba(255,255,255,.35)}
 .hbul-live-dot{width:6px;height:6px;background:#4ADE80;border-radius:50%;animation:bdot 2s infinite}
-.hbul-item{padding:1.05rem 1.5rem;border-bottom:1px solid rgba(255,255,255,.06);transition:background .15s;display:block}
+.hbul-item{padding:.8rem 1.5rem;border-bottom:1px solid rgba(255,255,255,.06);transition:background .15s;display:block}
 .hbul-item:last-of-type{border-bottom:none}
 .hbul-item:hover{background:rgba(255,255,255,.06)}
 .hbul-title{font-size:.88rem;font-weight:600;color:rgba(255,255,255,.9);line-height:1.4;margin:.4rem 0 .25rem}
@@ -157,7 +157,7 @@
 <div class="hero-grid">
 <div class="hero-left">
   <div class="hero-kicker">Founded 1985 &middot; San Francisco</div>
-  <h1>Advancing<br><em>Geotechnical</em><br>Engineering<br>Education and Research</h1>
+  <h1>Advancing <em>Geotechnical</em><br>Engineering Education<br>and Research</h1>
   <p class="hero-lead">The United States Universities Council on Geotechnical Education and Research provides advocacy for high-quality geomechanical, geotechnical and geoenvironmental engineering research and education across U.S. academic institutions.</p>
   <div class="hero-actions">
     <a href="membership.html" class="btn btn-amber">Join / Renew Membership &rarr;</a>
@@ -477,7 +477,7 @@
     <div class="footer-bottom">
       <span>&copy; <span data-now-year>2026</span> USUCGER. All rights reserved.</span>
       <span>Contact: <a href="mailto:webmaster@usucger.org">webmaster@usucger.org</a></span>
-      <span class="footer-credit">Website designed by Nitin Tiwari, Southern Illinois University Carbondale</span>
+      <span class="footer-credit">Website designed by Dr. Nitin Tiwari, Southern Illinois University Carbondale, IL</span>
     </div>
   </div>
 </footer>
