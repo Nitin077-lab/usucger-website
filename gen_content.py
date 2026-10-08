@@ -55,7 +55,7 @@ def posting_row(p, kind="academic"):
         '<div class="linkrow-body">'
         '<div class="linkrow-title">%s%s</div>'
         '<div class="linkrow-desc">%s%s</div>'
-        '<div class="linkrow-meta">Posted %s &middot; listing expires %s</div>'
+        '<div class="linkrow-meta">Posted %s</div>'
         "</div>"
         '<div class="pos-go" aria-hidden="true">&rarr;</div>'
         "</a>"
@@ -63,7 +63,7 @@ def posting_row(p, kind="academic"):
         esc(p["url"]), esc(p["institution"]).lower(), esc(p["title"]).lower(), esc(p.get("location", "")).lower(),
         badge, esc(p["institution"]),
         esc(p["title"]), (" &middot; " + esc(p["location"])) if p.get("location") else "",
-        fmt_date(p["posted"]), fmt_date(date.fromordinal(date.fromisoformat(p["posted"]).toordinal() + 365).isoformat()),
+        fmt_date(p["posted"]),
     )
 
 
@@ -104,10 +104,6 @@ POSITIONS_PAGE = """<section class="section bg-white">
             <a class="sc-link" href="funding-tips.html"><span class="sc-link-ic">&#128161;</span> Funding tips for new faculty</a>
             <a class="sc-link" href="membership.html"><span class="sc-link-ic">&#128179;</span> Join USUCGER</a>
           </div>
-        </div>
-        <div class="info-callout callout-grey">
-          <div class="ic-head">Why this page exists</div>
-          <div class="ic-body">Serving as a clearinghouse for faculty vacancies is one of the Council's standing functions under <a href="bylaws.html#article-iv">Article IV of the By-Laws</a>.</div>
         </div>
       </aside>
     </div>
@@ -285,11 +281,8 @@ BOARD_PAGE = """<section class="section bg-white">
         <div class="sidebar-card">
           <div class="sc-head">&#128499; How the Board is elected</div>
           <div class="sc-body">
-            <div class="sc-row"><span class="sc-name">Nominations announced</span><span class="sc-date" style="color:var(--cobalt)">by Sept 30</span></div>
-            <div class="sc-row"><span class="sc-name">Nominations close</span><span class="sc-date" style="color:var(--cobalt)">Oct 30</span></div>
-            <div class="sc-row"><span class="sc-name">Delegate votes cast</span><span class="sc-date" style="color:var(--cobalt)">by Dec 1</span></div>
-            <div class="sc-row"><span class="sc-name">Board changes over</span><span class="sc-date" style="color:var(--cobalt)">Q1 meeting</span></div>
-            <p style="font-size:.8rem;color:var(--muted);line-height:1.65;margin-top:.8rem">Each member institution holds two votes &mdash; one for a junior faculty candidate and one for a senior faculty candidate. No proxy votes are allowed.</p>
+            <p style="font-size:.8rem;color:var(--muted);line-height:1.65">Two directors are elected each year &mdash; one junior and one senior &mdash; by the delegates of the member institutions, and new directors take office at the annual meeting.</p>
+            <p style="font-size:.8rem;color:var(--muted);line-height:1.65;margin-top:.6rem">Each member institution holds two votes &mdash; one for a junior faculty candidate and one for a senior faculty candidate. No proxy votes are allowed.</p>
             <a href="bylaws.html#article-vi" class="btn btn-outline btn-sm" style="margin-top:.9rem">By-Laws, Article VI &rarr;</a>
           </div>
         </div>

@@ -44,7 +44,7 @@ DIRECTORY = """<section class="section bg-white">
       <aside class="sticky-aside rv d2">
         <div class="info-callout">
           <div class="ic-head">&#128269; Searching the directory</div>
-          <div class="ic-body">Type any part of a name or institution to filter instantly &mdash; for example <em>Purdue</em>, <em>Berkeley</em> or a surname. Click a column heading to sort, click again to reverse.</div>
+          <div class="ic-body">Type any part of a faculty member's name or an academic institution to filter instantly. Click a column heading to sort, and click again to reverse.</div>
         </div>
         <div class="sidebar-card">
           <div class="sc-head">&#128279; Related</div>

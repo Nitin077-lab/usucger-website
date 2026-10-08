@@ -219,8 +219,6 @@ SHELL = """<!DOCTYPE html>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<div class="notice-bar"><div class="wrap"><div class="notice-scroll">{notices}{notices}</div></div></div>
-
 <nav id="nav" aria-label="Primary">
   <div class="nav-wrap">
     <a href="index.html" class="nav-brand" aria-label="USUCGER home">
@@ -279,6 +277,7 @@ SHELL = """<!DOCTYPE html>
     <div class="footer-bottom">
       <span>&copy; <span data-now-year>2026</span> USUCGER. All rights reserved.</span>
       <span>Contact: <a href="mailto:{contact}">{contact}</a></span>
+      <span class="footer-credit">Website designed by Nitin Tiwari, Southern Illinois University Carbondale</span>
     </div>
   </div>
 </footer>
