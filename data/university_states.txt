@@ -48,8 +48,6 @@ Michigan State University|MI
 Michigan Technological University|MI
 Military Technological College|INTL
 Milwaukee School of Engineering|WI
-Mississippi State University|MS
-Missouri University of Science and Technology|MO
 Montana State University|MT
 Montana Technological University|MT
 New Jersey Institute of Technology|NJ
@@ -66,6 +64,7 @@ Oregon State University|OR
 Pennsylvania State University|PA
 Pennsylvania State University-Harrisburg|PA
 Polytechnique Montreal|INTL
+Portland State University|OR
 Purdue University|IN
 Purdue University Fort Wayne|IN
 Rensselaer Polytechnic Institute|NY
@@ -78,7 +77,6 @@ Saint Louis University|MO
 San Diego State University|CA
 San Jose State University|CA
 Santa Clara University|CA
-South Carolina State University|SC
 South Dakota School of Mines and Technology|SD
 South Dakota State University|SD
 Southern Illinois University Carbondale|IL
@@ -101,13 +99,10 @@ The College of New Jersey|NJ
 The Cooper Union for the Advancement of Science and Art|NY
 The Ohio State University|OH
 Tufts University|MA
-United States Air Force Academy|CO
 United States Coast Guard Academy|CT
-University of Akron|OH
 University of Alaska-Fairbanks|AK
 University of Alberta|INTL
 University of Arkansas|AR
-University of Buffalo|NY
 University of California-Berkeley|CA
 University of California-Davis|CA
 University of California-Los Angeles|CA
@@ -115,7 +110,6 @@ University of California-San Diego|CA
 University of Central Florida|FL
 University of Cincinnati|OH
 University of Colorado-Boulder|CO
-University of Colorado-Denver|CO
 University of Dayton|OH
 University of Delaware|DE
 University of Florida|FL
@@ -137,10 +131,7 @@ University of Memphis|TN
 University of Michigan|MI
 University of Minnesota|MN
 University of Mississippi|MS
-University of Missouri-Columbia|MO
-University of Mount Union|OH
 University of Nebraska – Lincoln|NE
-University of Nevada-Las Vegas|NV
 University of Nevada-Reno|NV
 University of New Hampshire|NH
 University of New Haven|CT
@@ -172,7 +163,6 @@ University of Virginia|VA
 University of Washington|WA
 University of Wisconsin-Madison|WI
 University of Wisconsin-Milwaukee|WI
-University of Wisconsin-Platteville|WI
 University of Wyoming|WY
 Utah State University|UT
 Villanova University|PA
@@ -182,4 +172,3 @@ West Virginia University|WV
 Western New England University|MA
 Western University|INTL
 Widener University|PA
-Youngstown State University|OH

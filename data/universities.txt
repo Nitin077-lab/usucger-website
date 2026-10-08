@@ -48,8 +48,6 @@ Michigan State University|Cetin, Bora
 Michigan Technological University|Chitta, Sai Sandeep
 Military Technological College|Ganiyu, Abideen
 Milwaukee School of Engineering|Bohnhoff, Gretchen
-Mississippi State University|
-Missouri University of Science and Technology|
 Montana State University|Khosravi, Mohammad
 Montana Technological University|MacLaughlin, Mary
 New Jersey Institute of Technology|Meegoda, Jay N.
@@ -59,13 +57,14 @@ North Carolina State University|Montoya, Brina
 Northeastern University|Shillaber, Craig
 Northwestern University|Buscarnera, Guiseppe
 Ohio University|Fox, Patrick
-Oklahoma State University|Bulut, Rifat
+Oklahoma State University|Mishra, Debakanta
 Old Dominion University|Wang, Pengfei
 Oregon Institute of Technology|Wang, Jintai
 Oregon State University|Stuedlein, Armin W.
 Pennsylvania State University|Yost, Kaleigh
 Pennsylvania State University-Harrisburg|Kakuturu, Sai
 Polytechnique Montreal|Cantor, David
+Portland State University|Khosravifar, Arash
 Purdue University|Bourdeau, Philippe
 Purdue University Fort Wayne|Singh, Shubjot
 Rensselaer Polytechnic Institute|El-Shafee, Omar
@@ -78,7 +77,6 @@ Saint Louis University|Luna, Ronaldo
 San Diego State University|Valdes, Julio
 San Jose State University|Coe, Joseph
 Santa Clara University|Singh, Sukhmander
-South Carolina State University|
 South Dakota School of Mines and Technology|Loshelder, Julia
 South Dakota State University|Banerjee, Aritra
 Southern Illinois University Carbondale|Kolay, Prabir
@@ -101,13 +99,10 @@ The College of New Jersey|Krstic, Vedrana
 The Cooper Union for the Advancement of Science and Art|Huang, Hejintao
 The Ohio State University|Bassal, Patrick
 Tufts University|Swan, Chris
-United States Air Force Academy|
 United States Coast Guard Academy|Jackson, Hudson
-University of Akron|
 University of Alaska-Fairbanks|Darrow, Margaret
 University of Alberta|Deng, Lijun
 University of Arkansas|Wood, Clint
-University of Buffalo|
 University of California-Berkeley|Bray, Jonathan
 University of California-Davis|DeJong, Jason
 University of California-Los Angeles|Stewart, Jonathan P.
@@ -115,7 +110,6 @@ University of California-San Diego|Semnani, Shabnam
 University of Central Florida|Arboleda, Luis
 University of Cincinnati|Wang, Lei
 University of Colorado-Boulder|Dashti, Shideh
-University of Colorado-Denver|
 University of Dayton|Bilgin, Ömer
 University of Delaware|Meehan, Christopher L.
 University of Florida|Stark, Nina
@@ -137,10 +131,7 @@ University of Memphis|Arellano, David
 University of Michigan|Garcia, Estéfan
 University of Minnesota|
 University of Mississippi|Oommen, Thomas
-University of Missouri-Columbia|
-University of Mount Union|
 University of Nebraska – Lincoln|Kim, Seunghee
-University of Nevada-Las Vegas|
 University of Nevada-Reno|Motamed, Ramin
 University of New Hampshire|Ghayoomi, Majid
 University of New Haven|Champagne, Cassandra
@@ -172,7 +163,6 @@ University of Virginia|Burden, Lindsay
 University of Washington|Wartman, Joseph
 University of Wisconsin-Madison|Tinjum, James M.
 University of Wisconsin-Milwaukee|Titi, Hani
-University of Wisconsin-Platteville|
 University of Wyoming|Ng, Kam
 Utah State University|Cox, Brady
 Villanova University|Sample-Lord, Kristin
@@ -182,4 +172,3 @@ West Virginia University|Quaranta, John
 Western New England University|Luo, Shengmin
 Western University|Newson, Tim
 Widener University|Tang, Xiaochao
-Youngstown State University|

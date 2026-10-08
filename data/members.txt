@@ -144,6 +144,7 @@ Daniel|Adeleke|Swarthmore College
 Shobha|Bhatia|Syracuse University
 Yichuan|Zhu|Temple University
 Lin|Li|Tennessee State University
+Lin|Li|Tennessee State University
 Amber|Spears|Tennessee State University
 Beena|Ajmera|Iowa State University
 Daniel|VandenBerge|Tennessee Technological University
