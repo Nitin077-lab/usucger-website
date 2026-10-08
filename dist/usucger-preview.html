@@ -662,6 +662,20 @@ table.gtable{width:100%;border-collapse:collapse;font-size:.85rem}
 .aw-count{font-size:.74rem;color:rgba(255,255,255,.5);margin-top:.15rem}
 @media(max-width:820px){.aw-grid{grid-template-columns:1fr}}
 
+/* always-visible bottom bar (copyright, contact, designer credit) */
+.footer-bottom.fixed-bar{position:fixed;left:0;right:0;bottom:0;z-index:250;background:var(--cobalt-dk);border-top:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.6);padding:0;font-size:.74rem;box-shadow:0 -4px 14px rgba(0,0,0,.12)}
+.fixed-bar .fb-inner{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;padding-top:.5rem;padding-bottom:.5rem}
+body{padding-bottom:2.4rem}
+.site-footer .footer-top{border-bottom:none;margin-bottom:0}
+#btt{bottom:3.4rem}
+@media(max-width:640px){
+  .footer-bottom.fixed-bar{font-size:.66rem}
+  .fixed-bar .fb-inner{justify-content:center;text-align:center;padding-top:.4rem;padding-bottom:.4rem}
+  .fixed-bar .fb-copy,.fixed-bar .fb-contact{display:none}
+  body{padding-bottom:3.2rem}
+}
+@media print{.footer-bottom.fixed-bar{position:static;box-shadow:none}body{padding-bottom:0}}
+
 /* generated from theme.json — active theme: strata (Strata — cobalt & amber). Do not edit; edit theme.json and rebuild. */
 :root{
   --primary-dk:#102747;
@@ -779,22 +793,22 @@ table.gtable{width:100%;border-collapse:collapse;font-size:.85rem}
 .hero{background:var(--cobalt-dk);position:relative;overflow:hidden}
 .hero-grid{display:grid;grid-template-columns:1fr 420px;align-items:stretch;position:relative;z-index:2}
 .hero-glow{position:absolute;top:-20%;left:-10%;width:70%;height:120%;pointer-events:none;background:radial-gradient(ellipse at 30% 40%,rgba(var(--primary-md-rgb),.5) 0%,transparent 60%)}
-.hero-left{padding:4.6rem 3.5rem 3.6rem 0;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2;max-width:660px;margin-left:auto;width:100%}
-.hero-kicker{display:inline-flex;align-items:center;gap:9px;background:rgba(var(--accent-rgb),.15);border:1px solid rgba(var(--accent-rgb),.3);color:var(--amber-hi);padding:.38rem .95rem;border-radius:3px;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:1.6rem;width:fit-content}
-.hero h1{color:#fff;margin-bottom:1.25rem}
+.hero-left{padding:2.8rem 3.5rem 2.6rem 0;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2;max-width:660px;margin-left:auto;width:100%}
+.hero-kicker{display:inline-flex;align-items:center;gap:9px;background:rgba(var(--accent-rgb),.15);border:1px solid rgba(var(--accent-rgb),.3);color:var(--amber-hi);padding:.38rem .95rem;border-radius:3px;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:1.15rem;width:fit-content}
+.hero h1{color:#fff;margin-bottom:1rem;font-size:clamp(2rem,3.3vw,2.85rem);line-height:1.12}
 .hero h1 em{font-style:italic;color:var(--amber-hi)}
-.hero-lead{font-size:1.02rem;color:rgba(255,255,255,.62);line-height:1.9;max-width:520px;margin-bottom:2.2rem;font-weight:300}
-.hero-actions{display:flex;gap:.85rem;flex-wrap:wrap;margin-bottom:2.8rem}
+.hero-lead{font-size:1rem;color:rgba(255,255,255,.62);line-height:1.7;max-width:540px;margin-bottom:1.6rem;font-weight:300}
+.hero-actions{display:flex;gap:.85rem;flex-wrap:wrap;margin-bottom:1.9rem}
 .hero-stats{display:flex;gap:3rem;flex-wrap:wrap}
 .hstat-n{font-family:'Fraunces',serif;font-size:2.5rem;font-weight:700;color:#fff;line-height:1;display:block;letter-spacing:-1px}
 .hstat-n em{font-style:normal;color:var(--amber-hi);font-size:1.7rem}
 .hstat-l{font-size:.72rem;color:rgba(255,255,255,.42);font-weight:500;text-transform:uppercase;letter-spacing:.1em;margin-top:6px}
 .hero-right{background:rgba(255,255,255,.04);border-left:1px solid rgba(255,255,255,.08);display:flex;flex-direction:column;position:relative;z-index:2}
-.hero-band{display:block;width:100%;height:150px;position:relative;z-index:1}
+.hero-band{display:block;width:100%;height:90px;position:relative;z-index:1}
 .hbul-head{padding:1.1rem 1.5rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,.08);font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4)}
 .hbul-live{display:flex;align-items:center;gap:6px;font-size:.7rem;color:rgba(255,255,255,.35)}
 .hbul-live-dot{width:6px;height:6px;background:#4ADE80;border-radius:50%;animation:bdot 2s infinite}
-.hbul-item{padding:1.05rem 1.5rem;border-bottom:1px solid rgba(255,255,255,.06);transition:background .15s;display:block}
+.hbul-item{padding:.8rem 1.5rem;border-bottom:1px solid rgba(255,255,255,.06);transition:background .15s;display:block}
 .hbul-item:last-of-type{border-bottom:none}
 .hbul-item:hover{background:rgba(255,255,255,.06)}
 .hbul-title{font-size:.88rem;font-weight:600;color:rgba(255,255,255,.9);line-height:1.4;margin:.4rem 0 .25rem}
@@ -836,7 +850,7 @@ table.gtable{width:100%;border-collapse:collapse;font-size:.85rem}
 <div class="hero-grid">
 <div class="hero-left">
   <div class="hero-kicker">Founded 1985 &middot; San Francisco</div>
-  <h1>Advancing<br><em>Geotechnical</em><br>Engineering<br>Education and Research</h1>
+  <h1>Advancing <em>Geotechnical</em><br>Engineering Education<br>and Research</h1>
   <p class="hero-lead">The United States Universities Council on Geotechnical Education and Research provides advocacy for high-quality geomechanical, geotechnical and geoenvironmental engineering research and education across U.S. academic institutions.</p>
   <div class="hero-actions">
     <a href="#membership" class="btn btn-amber">Join / Renew Membership &rarr;</a>
@@ -3639,11 +3653,6 @@ buildDataTable({
         <p style="margin-top:.8rem">Questions? <a href="mailto:webmaster@usucger.org">webmaster@usucger.org</a><br>Board: <a href="mailto:uboard@usucger.org">uboard@usucger.org</a></p>
       </div>
       <div><div class="ft-col-title">About</div><ul class="ft-links"><li><a href="#about">History &amp; Mission</a></li><li><a href="#bylaws">By-Laws</a></li><li><a href="#board">Board of Directors</a></li><li><a href="#contact">Contact USUCGER</a></li></ul></div><div><div class="ft-col-title">Members</div><ul class="ft-links"><li><a href="#membership">Membership &amp; Dues</a></li><li><a href="#directory">Membership Directory</a></li><li><a href="#universities">Member Universities</a></li><li><a href="#minutes">Meeting Minutes</a></li><li><a href="https://usucger.org/my-account/" target="_blank" rel="noopener">Member Login</a></li></ul></div><div><div class="ft-col-title">Positions</div><ul class="ft-links"><li><a href="#positions">Academic Positions</a></li><li><a href="#industry-positions">Industry &amp; Agency Positions</a></li><li><a href="mailto:webmaster@usucger.org?subject=Position%20Posting" target="_blank" rel="noopener">Post a Position</a></li></ul></div><div><div class="ft-col-title">Resources</div><ul class="ft-links"><li><a href="#awards">Awards</a></li><li><a href="#travel-grants">Student Travel Grants</a></li><li><a href="#research-grants">Small Research Grants</a></li><li><a href="#teaching-aids">Teaching Aids</a></li><li><a href="#books">Books &amp; Publications</a></li><li><a href="#software">Software &amp; Data</a></li><li><a href="#videos">Videos &amp; Webinars</a></li><li><a href="#conferences">Conferences</a></li></ul></div>
-    </div>
-    <div class="footer-bottom">
-      <span>&copy; <span data-now-year>2026</span> USUCGER. All rights reserved.</span>
-      <span>Contact: <a href="mailto:webmaster@usucger.org">webmaster@usucger.org</a></span>
-      <span class="footer-credit">Website designed by Nitin Tiwari, Southern Illinois University Carbondale</span>
     </div>
   </div>
 </footer>
