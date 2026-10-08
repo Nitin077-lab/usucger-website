@@ -314,10 +314,10 @@
   },
   "funding-tips.html": {
     "title": "Funding Tips — USUCGER",
-    "description": "Do's and don'ts in obtaining funding for geotechnical engineering research, from experienced researchers.",
+    "description": "Pointers for early career faculty on obtaining funding for geotechnical engineering research.",
     "eyebrow": "Resources &amp; Media",
     "h1": "Funding Tips",
-    "lead": "Observations on the do's and don'ts of winning research funding, collected from experienced geotechnical researchers to help early career faculty compete well.",
+    "lead": "Practical pointers on finding and winning research funding, to help early career geotechnical faculty compete well.",
     "crumbs": [
       [
         "Resources",
@@ -326,13 +326,6 @@
       [
         "Funding Tips",
         null
-      ]
-    ],
-    "actions": [
-      [
-        "Download the guide (PDF) &rarr;",
-        "https://usucger.org/wp-content/uploads/DOS_AND_DONTS-3.pdf",
-        "btn-amber"
       ]
     ]
   },
