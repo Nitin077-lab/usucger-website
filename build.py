@@ -274,13 +274,16 @@ SHELL = """<!DOCTYPE html>
       </div>
       {footer_links}
     </div>
-    <div class="footer-bottom">
-      <span>&copy; <span data-now-year>2026</span> USUCGER. All rights reserved.</span>
-      <span>Contact: <a href="mailto:{contact}">{contact}</a></span>
-      <span class="footer-credit">Website designed by Dr. Nitin Tiwari, Southern Illinois University Carbondale, IL</span>
-    </div>
   </div>
 </footer>
+
+<div class="footer-bottom fixed-bar" role="contentinfo">
+  <div class="wrap fb-inner">
+    <span class="fb-copy">&copy; <span data-now-year>2026</span> USUCGER. All rights reserved.</span>
+    <span class="fb-contact">Contact: <a href="mailto:{contact}">{contact}</a></span>
+    <span class="footer-credit">Website designed by Dr. Nitin Tiwari, Southern Illinois University Carbondale, IL</span>
+  </div>
+</div>
 
 <button id="btt" type="button" title="Back to top" aria-label="Back to top">&uarr;</button>
 <script src="assets/search-index.js" defer></script>
