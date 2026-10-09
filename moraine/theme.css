@@ -1,0 +1,28 @@
+/* generated from theme.json — active theme: moraine (Moraine — pine & copper). Do not edit; edit theme.json and rebuild. */
+:root{
+  --primary-dk:#0D2320;
+  --primary:#164239;
+  --primary-md:#23685A;
+  --primary-lt:#E6F0ED;
+  --primary-lt2:#5E9C8E;
+  --accent:#C0662E;
+  --accent-dk:#A2521F;
+  --accent-lt:#F8E7DA;
+  --accent-pale:#FCF5EE;
+  --accent-hi:#F2B98E;
+  --sand:#F3F1EA;
+  --border:#DFE0D8;
+  --border-dk:#C3C6BA;
+  --ink:#171A19;
+  --ink-2:#2F3432;
+  --muted:#64706B;
+  --muted-lt:#96A09B;
+  --link:#1F5F8B;
+  --link-lt:#E3EEF6;
+  --on-dark-link:#F2B98E;
+  --primary-rgb:22,66,57;
+  --primary-dk-rgb:13,35,32;
+  --primary-md-rgb:35,104,90;
+  --accent-rgb:192,102,46;
+  --link-rgb:31,95,139;
+}
