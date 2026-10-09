@@ -153,6 +153,8 @@ is: change `active`, then run `make_logo.py`, `export.py`, copy
 `brand/logo/*.svg` to `assets/brand/`, `gen_content.py`, `build.py`.
 The site ships with **Strata — cobalt & amber** active; Bedrock and Moraine are kept as ready alternatives.
 
+**Board review (Oct 2026):** theme.json now also holds the 18 palette options shown to the Board (A–R), and **Core Sample** (white & safety orange, light header) is active. Themes marked `"band": "light"` get a pale hero band with dark text. To switch: set `active` in theme.json, then `python3 brand/recolor_logo.py && python3 build.py` (recolours the logo without needing the fonts).
+
 ## Brand & logo
 
 `brand/` holds the identity system. `brand/make_logo.py` generates every SVG in

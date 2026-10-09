@@ -1,8 +1,8 @@
 {
-  "active": "strata",
+  "active": "core-sample",
   "themes": {
     "strata": {
-      "label": "Strata \u2014 cobalt & amber",
+      "label": "Strata — cobalt & amber",
       "primary-dk": "#102747",
       "primary": "#1B3F6E",
       "primary-md": "#2554A0",
@@ -41,7 +41,7 @@
       }
     },
     "bedrock": {
-      "label": "Bedrock \u2014 graphite & terracotta",
+      "label": "Bedrock — graphite & terracotta",
       "primary-dk": "#1C1B19",
       "primary": "#2E2C29",
       "primary-md": "#4B4844",
@@ -80,7 +80,7 @@
       }
     },
     "moraine": {
-      "label": "Moraine \u2014 pine & copper",
+      "label": "Moraine — pine & copper",
       "primary-dk": "#0D2320",
       "primary": "#164239",
       "primary-md": "#23685A",
@@ -116,6 +116,644 @@
         "accent": "#C0662E",
         "accent_hi": "#F2B98E",
         "dark": "#0D2320"
+      }
+    },
+    "core-sample": {
+      "label": "Core Sample — white & safety orange",
+      "primary-dk": "#1A1A1A",
+      "primary": "#2A2A2A",
+      "primary-md": "#595959",
+      "primary-lt": "#F1F1F0",
+      "primary-lt2": "#8A8A8A",
+      "accent": "#C2410C",
+      "accent-dk": "#9A3412",
+      "accent-lt": "#FDE8DA",
+      "accent-pale": "#FCF6F3",
+      "accent-hi": "#FDBA74",
+      "sand": "#F7F7F6",
+      "border": "#E3E3E2",
+      "border-dk": "#CBCBCA",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#1D5F8A",
+      "link-lt": "#E8EFF3",
+      "on-dark-link": "#FDC890",
+      "band": "light",
+      "band-bg": "#F4F4F2",
+      "logo": {
+        "wall": "#1A1A1A",
+        "strata": [
+          "#595959",
+          "#2A2A2A",
+          "#1A1A1A"
+        ],
+        "rev_strata": [
+          "#8A8A8A",
+          "#595959",
+          "#2A2A2A"
+        ],
+        "accent": "#C2410C",
+        "accent_hi": "#FDBA74",
+        "dark": "#1A1A1A"
+      }
+    },
+    "shale": {
+      "label": "Shale — slate teal & signal orange",
+      "primary-dk": "#13262B",
+      "primary": "#1E3B42",
+      "primary-md": "#50666C",
+      "primary-lt": "#E5EEF0",
+      "primary-lt2": "#839397",
+      "accent": "#C2410C",
+      "accent-dk": "#9A3412",
+      "accent-lt": "#FDE8DA",
+      "accent-pale": "#FCF6F3",
+      "accent-hi": "#FDBA74",
+      "sand": "#F2F4F3",
+      "border": "#DFE0E0",
+      "border-dk": "#C6C8C7",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#0F5E8C",
+      "link-lt": "#E7EFF4",
+      "on-dark-link": "#FDC890",
+      "logo": {
+        "wall": "#13262B",
+        "strata": [
+          "#50666C",
+          "#1E3B42",
+          "#13262B"
+        ],
+        "rev_strata": [
+          "#839397",
+          "#50666C",
+          "#1E3B42"
+        ],
+        "accent": "#C2410C",
+        "accent_hi": "#FDBA74",
+        "dark": "#13262B"
+      }
+    },
+    "laterite": {
+      "label": "Laterite — oxblood & ochre",
+      "primary-dk": "#2A1215",
+      "primary": "#4A1E22",
+      "primary-md": "#725053",
+      "primary-lt": "#F6E9E6",
+      "primary-lt2": "#9B8385",
+      "accent": "#93640F",
+      "accent-dk": "#7A520B",
+      "accent-lt": "#F6EBD3",
+      "accent-pale": "#FAF7F3",
+      "accent-hi": "#E9C46A",
+      "sand": "#F7F2EA",
+      "border": "#E3DFD7",
+      "border-dk": "#CBC6C0",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#2F5D62",
+      "link-lt": "#EAEFEF",
+      "on-dark-link": "#EDD088",
+      "logo": {
+        "wall": "#2A1215",
+        "strata": [
+          "#725053",
+          "#4A1E22",
+          "#2A1215"
+        ],
+        "rev_strata": [
+          "#9B8385",
+          "#725053",
+          "#4A1E22"
+        ],
+        "accent": "#93640F",
+        "accent_hi": "#E9C46A",
+        "dark": "#2A1215"
+      }
+    },
+    "basalt": {
+      "label": "Basalt — charcoal & teal",
+      "primary-dk": "#121417",
+      "primary": "#1F2329",
+      "primary-md": "#505358",
+      "primary-lt": "#EAEEF2",
+      "primary-lt2": "#848689",
+      "accent": "#0E7C7B",
+      "accent-dk": "#0A5F5E",
+      "accent-lt": "#DDF2F0",
+      "accent-pale": "#F3F8F8",
+      "accent-hi": "#7FD6CF",
+      "sand": "#F4F6F7",
+      "border": "#E0E2E3",
+      "border-dk": "#C8CACB",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#0E6BA8",
+      "link-lt": "#E7F0F6",
+      "on-dark-link": "#99DED9",
+      "logo": {
+        "wall": "#121417",
+        "strata": [
+          "#505358",
+          "#1F2329",
+          "#121417"
+        ],
+        "rev_strata": [
+          "#848689",
+          "#505358",
+          "#1F2329"
+        ],
+        "accent": "#0E7C7B",
+        "accent_hi": "#7FD6CF",
+        "dark": "#121417"
+      }
+    },
+    "aquifer": {
+      "label": "Aquifer — deep teal & coral",
+      "primary-dk": "#0B2E33",
+      "primary": "#12474F",
+      "primary-md": "#466F76",
+      "primary-lt": "#E3F1F2",
+      "primary-lt2": "#7D9A9E",
+      "accent": "#C2453F",
+      "accent-dk": "#9F3631",
+      "accent-lt": "#FBE5E3",
+      "accent-pale": "#FCF6F5",
+      "accent-hi": "#F5A99F",
+      "sand": "#F3F6F5",
+      "border": "#E0E2E1",
+      "border-dk": "#C7CAC9",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#1F6E78",
+      "link-lt": "#E9F0F2",
+      "on-dark-link": "#F7BAB2",
+      "logo": {
+        "wall": "#0B2E33",
+        "strata": [
+          "#466F76",
+          "#12474F",
+          "#0B2E33"
+        ],
+        "rev_strata": [
+          "#7D9A9E",
+          "#466F76",
+          "#12474F"
+        ],
+        "accent": "#C2453F",
+        "accent_hi": "#F5A99F",
+        "dark": "#0B2E33"
+      }
+    },
+    "hematite": {
+      "label": "Hematite — red-brown & steel",
+      "primary-dk": "#2B1A17",
+      "primary": "#4A2C25",
+      "primary-md": "#725A55",
+      "primary-lt": "#F4EBE8",
+      "primary-lt2": "#9B8B87",
+      "accent": "#4F6D7A",
+      "accent-dk": "#3D5661",
+      "accent-lt": "#E3ECF0",
+      "accent-pale": "#F6F8F8",
+      "accent-hi": "#A9C3CF",
+      "sand": "#F7F3F0",
+      "border": "#E3E0DD",
+      "border-dk": "#CBC7C5",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#4F6D7A",
+      "link-lt": "#EDF0F2",
+      "on-dark-link": "#BACFD9",
+      "logo": {
+        "wall": "#2B1A17",
+        "strata": [
+          "#725A55",
+          "#4A2C25",
+          "#2B1A17"
+        ],
+        "rev_strata": [
+          "#9B8B87",
+          "#725A55",
+          "#4A2C25"
+        ],
+        "accent": "#4F6D7A",
+        "accent_hi": "#A9C3CF",
+        "dark": "#2B1A17"
+      }
+    },
+    "loess": {
+      "label": "Loess — olive stone & wheat",
+      "primary-dk": "#2B2A20",
+      "primary": "#3F3E2E",
+      "primary-md": "#69685C",
+      "primary-lt": "#EFEEE4",
+      "primary-lt2": "#95958C",
+      "accent": "#5F6F1C",
+      "accent-dk": "#4B5816",
+      "accent-lt": "#ECF0D9",
+      "accent-pale": "#F7F8F4",
+      "accent-hi": "#D4E09B",
+      "sand": "#F6F4EC",
+      "border": "#E2E0D9",
+      "border-dk": "#CAC8C2",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#345C8A",
+      "link-lt": "#EBEFF3",
+      "on-dark-link": "#DDE6AF",
+      "logo": {
+        "wall": "#2B2A20",
+        "strata": [
+          "#69685C",
+          "#3F3E2E",
+          "#2B2A20"
+        ],
+        "rev_strata": [
+          "#95958C",
+          "#69685C",
+          "#3F3E2E"
+        ],
+        "accent": "#5F6F1C",
+        "accent_hi": "#D4E09B",
+        "dark": "#2B2A20"
+      }
+    },
+    "limestone": {
+      "label": "Limestone — light stone & deep teal",
+      "primary-dk": "#2B2A26",
+      "primary": "#3A3934",
+      "primary-md": "#656561",
+      "primary-lt": "#E1EEEC",
+      "primary-lt2": "#93928F",
+      "accent": "#0F6E6A",
+      "accent-dk": "#0B5653",
+      "accent-lt": "#DDF0EE",
+      "accent-pale": "#F3F8F8",
+      "accent-hi": "#7FD0C8",
+      "sand": "#FAF8F3",
+      "border": "#E6E4E0",
+      "border-dk": "#CDCBC7",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#0F6E6A",
+      "link-lt": "#E7F0F0",
+      "on-dark-link": "#99D9D3",
+      "band": "light",
+      "band-bg": "#F1EDE4",
+      "logo": {
+        "wall": "#2B2A26",
+        "strata": [
+          "#656561",
+          "#3A3934",
+          "#2B2A26"
+        ],
+        "rev_strata": [
+          "#93928F",
+          "#656561",
+          "#3A3934"
+        ],
+        "accent": "#0F6E6A",
+        "accent_hi": "#7FD0C8",
+        "dark": "#2B2A26"
+      }
+    },
+    "sandstone": {
+      "label": "Sandstone — warm sand & burnt sienna",
+      "primary-dk": "#4A2B17",
+      "primary": "#5E3820",
+      "primary-md": "#816451",
+      "primary-lt": "#F6E7D2",
+      "primary-lt2": "#A69284",
+      "accent": "#A3471E",
+      "accent-dk": "#863A17",
+      "accent-lt": "#F7E2D4",
+      "accent-pale": "#FAF6F4",
+      "accent-hi": "#F0B48C",
+      "sand": "#FCF8F2",
+      "border": "#E8E4DF",
+      "border-dk": "#CFCBC6",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#2F6470",
+      "link-lt": "#EAF0F1",
+      "on-dark-link": "#F3C3A3",
+      "band": "light",
+      "band-bg": "#F6E7D2",
+      "logo": {
+        "wall": "#4A2B17",
+        "strata": [
+          "#816451",
+          "#5E3820",
+          "#4A2B17"
+        ],
+        "rev_strata": [
+          "#A69284",
+          "#816451",
+          "#5E3820"
+        ],
+        "accent": "#A3471E",
+        "accent_hi": "#F0B48C",
+        "dark": "#4A2B17"
+      }
+    },
+    "glacier": {
+      "label": "Glacier — ice blue & raspberry",
+      "primary-dk": "#12324A",
+      "primary": "#1C4766",
+      "primary-md": "#4E6F88",
+      "primary-lt": "#E7F0F4",
+      "primary-lt2": "#829AAB",
+      "accent": "#B23A48",
+      "accent-dk": "#8F2E3A",
+      "accent-lt": "#F8E2E5",
+      "accent-pale": "#FBF5F6",
+      "accent-hi": "#F2A3AE",
+      "sand": "#F7FAFB",
+      "border": "#E3E6E7",
+      "border-dk": "#CBCDCE",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#1C5F86",
+      "link-lt": "#E8EFF3",
+      "on-dark-link": "#F5B5BE",
+      "band": "light",
+      "band-bg": "#E7F0F4",
+      "logo": {
+        "wall": "#12324A",
+        "strata": [
+          "#4E6F88",
+          "#1C4766",
+          "#12324A"
+        ],
+        "rev_strata": [
+          "#829AAB",
+          "#4E6F88",
+          "#1C4766"
+        ],
+        "accent": "#B23A48",
+        "accent_hi": "#F2A3AE",
+        "dark": "#12324A"
+      }
+    },
+    "sage": {
+      "label": "Sage — sage green & fern",
+      "primary-dk": "#23352A",
+      "primary": "#2F4738",
+      "primary-md": "#5D6F64",
+      "primary-lt": "#E8EEE4",
+      "primary-lt2": "#8D9A92",
+      "accent": "#2F6B4F",
+      "accent-dk": "#24543E",
+      "accent-lt": "#DCEBE2",
+      "accent-pale": "#F5F8F6",
+      "accent-hi": "#9FD3B6",
+      "sand": "#F8FAF6",
+      "border": "#E4E6E2",
+      "border-dk": "#CBCDCA",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#2F5E7D",
+      "link-lt": "#EAEFF2",
+      "on-dark-link": "#B2DCC5",
+      "band": "light",
+      "band-bg": "#E8EEE4",
+      "logo": {
+        "wall": "#23352A",
+        "strata": [
+          "#5D6F64",
+          "#2F4738",
+          "#23352A"
+        ],
+        "rev_strata": [
+          "#8D9A92",
+          "#5D6F64",
+          "#2F4738"
+        ],
+        "accent": "#2F6B4F",
+        "accent_hi": "#9FD3B6",
+        "dark": "#23352A"
+      }
+    },
+    "amethyst": {
+      "label": "Amethyst — lilac & violet",
+      "primary-dk": "#2E2346",
+      "primary": "#40315F",
+      "primary-md": "#6A5E82",
+      "primary-lt": "#EEEAF4",
+      "primary-lt2": "#968EA7",
+      "accent": "#6B3FA0",
+      "accent-dk": "#563281",
+      "accent-lt": "#EBE2F6",
+      "accent-pale": "#F8F5FA",
+      "accent-hi": "#C8AEEB",
+      "sand": "#FAF9FC",
+      "border": "#E6E5E8",
+      "border-dk": "#CDCCCF",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#4B4FA6",
+      "link-lt": "#EDEDF6",
+      "on-dark-link": "#D3BEEF",
+      "band": "light",
+      "band-bg": "#EEEAF4",
+      "logo": {
+        "wall": "#2E2346",
+        "strata": [
+          "#6A5E82",
+          "#40315F",
+          "#2E2346"
+        ],
+        "rev_strata": [
+          "#968EA7",
+          "#6A5E82",
+          "#40315F"
+        ],
+        "accent": "#6B3FA0",
+        "accent_hi": "#C8AEEB",
+        "dark": "#2E2346"
+      }
+    },
+    "garnet": {
+      "label": "Garnet — deep plum & rose",
+      "primary-dk": "#2A1733",
+      "primary": "#432653",
+      "primary-md": "#6C5679",
+      "primary-lt": "#F1E8F3",
+      "primary-lt2": "#9888A0",
+      "accent": "#B8475A",
+      "accent-dk": "#963848",
+      "accent-lt": "#F8E3E7",
+      "accent-pale": "#FBF6F7",
+      "accent-hi": "#F2A7B3",
+      "sand": "#F8F4F6",
+      "border": "#E4E0E2",
+      "border-dk": "#CBC8CA",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#5B3C88",
+      "link-lt": "#EFECF3",
+      "on-dark-link": "#F5B9C2",
+      "logo": {
+        "wall": "#2A1733",
+        "strata": [
+          "#6C5679",
+          "#432653",
+          "#2A1733"
+        ],
+        "rev_strata": [
+          "#9888A0",
+          "#6C5679",
+          "#432653"
+        ],
+        "accent": "#B8475A",
+        "accent_hi": "#F2A7B3",
+        "dark": "#2A1733"
+      }
+    },
+    "fluorite": {
+      "label": "Fluorite — indigo-violet & mint",
+      "primary-dk": "#1E1B3A",
+      "primary": "#2E2A57",
+      "primary-md": "#5C597C",
+      "primary-lt": "#E9E8F4",
+      "primary-lt2": "#8C8AA3",
+      "accent": "#0F766E",
+      "accent-dk": "#0B5D57",
+      "accent-lt": "#DCF2EF",
+      "accent-pale": "#F3F8F8",
+      "accent-hi": "#99E2D0",
+      "sand": "#F5F5F9",
+      "border": "#E1E1E5",
+      "border-dk": "#C9C9CC",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#3D46A3",
+      "link-lt": "#ECECF6",
+      "on-dark-link": "#ADE8D9",
+      "logo": {
+        "wall": "#1E1B3A",
+        "strata": [
+          "#5C597C",
+          "#2E2A57",
+          "#1E1B3A"
+        ],
+        "rev_strata": [
+          "#8C8AA3",
+          "#5C597C",
+          "#2E2A57"
+        ],
+        "accent": "#0F766E",
+        "accent_hi": "#99E2D0",
+        "dark": "#1E1B3A"
+      }
+    },
+    "peat": {
+      "label": "Peat — dark brown & sky blue",
+      "primary-dk": "#2A2118",
+      "primary": "#3F3226",
+      "primary-md": "#695F56",
+      "primary-lt": "#EFE9E2",
+      "primary-lt2": "#958E88",
+      "accent": "#2C6E9B",
+      "accent-dk": "#22577B",
+      "accent-lt": "#E1EDF6",
+      "accent-pale": "#F4F8FA",
+      "accent-hi": "#A7CDE8",
+      "sand": "#F7F4F0",
+      "border": "#E3E0DD",
+      "border-dk": "#CBC8C5",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#2C6E9B",
+      "link-lt": "#EAF0F5",
+      "on-dark-link": "#B9D7ED",
+      "logo": {
+        "wall": "#2A2118",
+        "strata": [
+          "#695F56",
+          "#3F3226",
+          "#2A2118"
+        ],
+        "rev_strata": [
+          "#958E88",
+          "#695F56",
+          "#3F3226"
+        ],
+        "accent": "#2C6E9B",
+        "accent_hi": "#A7CDE8",
+        "dark": "#2A2118"
+      }
+    },
+    "tuff": {
+      "label": "Tuff — dusty rose & cranberry",
+      "primary-dk": "#4A2026",
+      "primary": "#5E2A31",
+      "primary-md": "#81595E",
+      "primary-lt": "#F6E9E7",
+      "primary-lt2": "#A68A8E",
+      "accent": "#9E2F45",
+      "accent-dk": "#802538",
+      "accent-lt": "#F6E0E4",
+      "accent-pale": "#FAF5F6",
+      "accent-hi": "#F0A8B6",
+      "sand": "#FCF8F7",
+      "border": "#E8E4E3",
+      "border-dk": "#CFCBCB",
+      "ink": "#181818",
+      "ink-2": "#343434",
+      "muted": "#686460",
+      "muted-lt": "#9B9690",
+      "link": "#3E5F82",
+      "link-lt": "#ECEFF2",
+      "on-dark-link": "#F3B9C5",
+      "band": "light",
+      "band-bg": "#F6E9E7",
+      "logo": {
+        "wall": "#4A2026",
+        "strata": [
+          "#81595E",
+          "#5E2A31",
+          "#4A2026"
+        ],
+        "rev_strata": [
+          "#A68A8E",
+          "#81595E",
+          "#5E2A31"
+        ],
+        "accent": "#9E2F45",
+        "accent_hi": "#F0A8B6",
+        "dark": "#4A2026"
       }
     }
   }

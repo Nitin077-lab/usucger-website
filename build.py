@@ -332,6 +332,34 @@ def hex_rgb(h):
     return "%d,%d,%d" % (int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16))
 
 
+BAND_LIGHT_CSS = """/* light header band (theme.json "band": "light") */
+:root{--band-bg:BAND_BG}
+body .hero,body .phero{background:var(--band-bg);border-bottom:1px solid var(--border)}
+body .hero-glow,body .phero::after{display:none}
+body .hero h1,body .phero h1{color:var(--primary-dk)}
+body .hero h1 em{color:var(--accent)}
+body .hero-kicker{color:var(--accent-dk);background:var(--accent-lt);border-color:rgba(var(--accent-rgb),.35)}
+body .hero-lead,body .phero-lead{color:var(--ink-2);font-weight:400}
+body .hero .btn-ghost,body .phero .btn-ghost{background:#fff;border-color:var(--border-dk);color:var(--primary-dk)}
+body .hero .btn-ghost:hover,body .phero .btn-ghost:hover{background:var(--sand)}
+body .hstat-n{color:var(--primary-dk)}
+body .hstat-n em{color:var(--accent)}
+body .hstat-l{color:var(--muted)}
+body .hero-right{background:#fff;border-color:var(--border)}
+body .hbul-head{color:var(--muted);border-bottom-color:var(--border)}
+body .hbul-live{color:var(--muted)}
+body .hbul-item{border-bottom-color:var(--border)}
+body .hbul-item:hover{background:var(--sand)}
+body .hbul-title{color:var(--primary-dk)}
+body .hbul-sub{color:var(--muted)}
+body .phero .eyebrow{color:var(--accent-dk)}
+body .phero .eyebrow-line{background:var(--accent)}
+body .crumbs{color:var(--muted)}
+body .crumbs a{color:var(--ink-2)}
+body .crumbs a:hover{color:var(--primary-dk)}
+"""
+
+
 def load_theme():
     """Read theme.json and write assets/theme.css (overrides the :root defaults in site.css)."""
     with open(os.path.join(ROOT, "theme.json"), encoding="utf-8") as fh:
@@ -346,6 +374,9 @@ def load_theme():
     for k in ["primary", "primary-dk", "primary-md", "accent", "link"]:
         lines.append("  --%s-rgb:%s;" % (k, hex_rgb(th[k])))
     lines.append("}")
+    if th.get("band") == "light":
+        # light-header themes: pale hero bands with dark text; footer and strips stay dark
+        lines.append(BAND_LIGHT_CSS.replace("BAND_BG", th.get("band-bg", "#F4F4F2")))
     with open(os.path.join(ROOT, "assets", "theme.css"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
     return t["active"], th
