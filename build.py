@@ -534,7 +534,25 @@ def main():
             fh.write(html)
         built.append(slug)
     n = build_search_index(manifest, bodies)
+    cache_bust(built)
     print("Built %d pages, search index %d entries" % (len(built), n))
+
+
+def cache_bust(pages):
+    """Add ?v=<content hash> to shared CSS/JS links so browsers fetch new versions right away."""
+    import hashlib
+    vers = {}
+    for a in ["site.css", "theme.css", "site.js", "themes.js", "search-index.js"]:
+        with open(os.path.join(ROOT, "assets", a), "rb") as fh:
+            vers[a] = hashlib.md5(fh.read()).hexdigest()[:8]
+    for slug in pages:
+        path = os.path.join(OUT_DIR, slug)
+        with open(path, encoding="utf-8") as fh:
+            html = fh.read()
+        for a, v in vers.items():
+            html = html.replace('"assets/%s"' % a, '"assets/%s?v=%s"' % (a, v))
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(html)
 
 
 if __name__ == "__main__":
