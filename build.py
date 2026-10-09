@@ -111,14 +111,20 @@ NOTICES = (
 # ------------------------------------------------------------------- helpers
 def inline_svg(name, suffix, cls, extra=""):
     """Read a brand SVG and return it inline with unique clip ids and a class."""
-    path = os.path.join(ROOT, "assets", "brand", name)
+    path = os.path.join(ROOT, "brand", "logo", name)  # Strata masters; colours become theme variables
     with open(path, "r", encoding="utf-8") as fh:
         svg = fh.read()
     svg = re.sub(r"<title>.*?</title>", "", svg, flags=re.S)
     svg = svg.replace('id="uInner"', 'id="uInner%s"' % suffix).replace("url(#uInner)", "url(#uInner%s)" % suffix)
     svg = re.sub(r'\swidth="[\d.]+"\sheight="[\d.]+"', "", svg, count=1)
     svg = svg.replace("<svg ", '<svg class="%s" %s ' % (cls, extra), 1)
+    svg = re.sub("|".join(LOGO_VARS), lambda m: "var(%s)" % LOGO_VARS[m.group(0).upper()], svg, flags=re.I)
     return svg
+
+
+# Strata master colour -> theme variable, so the inline logo follows the active theme
+LOGO_VARS = {"#102747": "--logo-wall", "#1B3F6E": "--logo-s1", "#2554A0": "--logo-s0", "#5B86CC": "--logo-r0",
+             "#B9CCEB": "--logo-pale", "#C47A1A": "--logo-accent", "#FCD87A": "--logo-accent-hi"}
 
 
 def is_external(href):
@@ -199,7 +205,7 @@ def crumbs_html(trail):
 
 # --------------------------------------------------------------------- shell
 SHELL = """<!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="{theme_key}" data-band="{theme_band}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -215,6 +221,7 @@ SHELL = """<!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 <link rel="stylesheet" href="assets/theme.css">
+<script>(function(){{var L={light_keys};try{{var q=new URLSearchParams(location.search).get("theme");var t=q||localStorage.getItem("usucger-theme");if(q)localStorage.setItem("usucger-theme",q);if(t&&{all_keys}.indexOf(t)>-1){{var h=document.documentElement;h.setAttribute("data-theme",t);h.setAttribute("data-band",L.indexOf(t)>-1?"light":"dark");}}}}catch(e){{}}}})();</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -287,6 +294,7 @@ SHELL = """<!DOCTYPE html>
 
 <button id="btt" type="button" title="Back to top" aria-label="Back to top">&uarr;</button>
 <script src="assets/search-index.js" defer></script>
+<script src="assets/themes.js"></script>
 <script src="assets/site.js"></script>
 </body>
 </html>
@@ -333,53 +341,71 @@ def hex_rgb(h):
 
 
 BAND_LIGHT_CSS = """/* light header band (theme.json "band": "light") */
-:root{--band-bg:BAND_BG}
-body .hero,body .phero{background:var(--band-bg);border-bottom:1px solid var(--border)}
-body .hero-glow,body .phero::after{display:none}
-body .hero h1,body .phero h1{color:var(--primary-dk)}
-body .hero h1 em{color:var(--accent)}
-body .hero-kicker{color:var(--accent-dk);background:var(--accent-lt);border-color:rgba(var(--accent-rgb),.35)}
-body .hero-lead,body .phero-lead{color:var(--ink-2);font-weight:400}
-body .hero .btn-ghost,body .phero .btn-ghost{background:#fff;border-color:var(--border-dk);color:var(--primary-dk)}
-body .hero .btn-ghost:hover,body .phero .btn-ghost:hover{background:var(--sand)}
-body .hstat-n{color:var(--primary-dk)}
-body .hstat-n em{color:var(--accent)}
-body .hstat-l{color:var(--muted)}
-body .hero-right{background:#fff;border-color:var(--border)}
-body .hbul-head{color:var(--muted);border-bottom-color:var(--border)}
-body .hbul-live{color:var(--muted)}
-body .hbul-item{border-bottom-color:var(--border)}
-body .hbul-item:hover{background:var(--sand)}
-body .hbul-title{color:var(--primary-dk)}
-body .hbul-sub{color:var(--muted)}
-body .phero .eyebrow{color:var(--accent-dk)}
-body .phero .eyebrow-line{background:var(--accent)}
-body .crumbs{color:var(--muted)}
-body .crumbs a{color:var(--ink-2)}
-body .crumbs a:hover{color:var(--primary-dk)}
+html[data-band="light"] .hero,html[data-band="light"] .phero{background:var(--band-bg);border-bottom:1px solid var(--border)}
+html[data-band="light"] .hero-glow,html[data-band="light"] .phero::after{display:none}
+html[data-band="light"] .hero h1,html[data-band="light"] .phero h1{color:var(--primary-dk)}
+html[data-band="light"] .hero h1 em{color:var(--accent)}
+html[data-band="light"] .hero-kicker{color:var(--accent-dk);background:var(--accent-lt);border-color:rgba(var(--accent-rgb),.35)}
+html[data-band="light"] .hero-lead,html[data-band="light"] .phero-lead{color:var(--ink-2);font-weight:400}
+html[data-band="light"] .hero .btn-ghost,html[data-band="light"] .phero .btn-ghost{background:#fff;border-color:var(--border-dk);color:var(--primary-dk)}
+html[data-band="light"] .hero .btn-ghost:hover,html[data-band="light"] .phero .btn-ghost:hover{background:var(--sand)}
+html[data-band="light"] .hstat-n{color:var(--primary-dk)}
+html[data-band="light"] .hstat-n em{color:var(--accent)}
+html[data-band="light"] .hstat-l{color:var(--muted)}
+html[data-band="light"] .hero-right{background:#fff;border-color:var(--border)}
+html[data-band="light"] .hbul-head{color:var(--muted);border-bottom-color:var(--border)}
+html[data-band="light"] .hbul-live{color:var(--muted)}
+html[data-band="light"] .hbul-item{border-bottom-color:var(--border)}
+html[data-band="light"] .hbul-item:hover{background:var(--sand)}
+html[data-band="light"] .hbul-title{color:var(--primary-dk)}
+html[data-band="light"] .hbul-sub{color:var(--muted)}
+html[data-band="light"] .phero .eyebrow{color:var(--accent-dk)}
+html[data-band="light"] .phero .eyebrow-line{background:var(--accent)}
+html[data-band="light"] .crumbs{color:var(--muted)}
+html[data-band="light"] .crumbs a{color:var(--ink-2)}
+html[data-band="light"] .crumbs a:hover{color:var(--primary-dk)}
 """
 
 
-def load_theme():
-    """Read theme.json and write assets/theme.css (overrides the :root defaults in site.css)."""
-    with open(os.path.join(ROOT, "theme.json"), encoding="utf-8") as fh:
-        t = json.load(fh)
-    th = t["themes"][t["active"]]
+THEME_INFO = {}
+
+
+def theme_vars(th):
     keys = ["primary-dk", "primary", "primary-md", "primary-lt", "primary-lt2", "accent", "accent-dk", "accent-lt",
             "accent-pale", "accent-hi", "sand", "border", "border-dk", "ink", "ink-2", "muted", "muted-lt",
             "link", "link-lt", "on-dark-link"]
-    lines = ["/* generated from theme.json — active theme: %s (%s). Do not edit; edit theme.json and rebuild. */" % (t["active"], th["label"]), ":root{"]
-    for k in keys:
-        lines.append("  --%s:%s;" % (k, th[k]))
-    for k in ["primary", "primary-dk", "primary-md", "accent", "link"]:
-        lines.append("  --%s-rgb:%s;" % (k, hex_rgb(th[k])))
-    lines.append("}")
-    if th.get("band") == "light":
-        # light-header themes: pale hero bands with dark text; footer and strips stay dark
-        lines.append(BAND_LIGHT_CSS.replace("BAND_BG", th.get("band-bg", "#F4F4F2")))
+    out = ["--%s:%s" % (k, th[k]) for k in keys]
+    out += ["--%s-rgb:%s" % (k, hex_rgb(th[k])) for k in ["primary", "primary-dk", "primary-md", "accent", "link"]]
+    L = th["logo"]
+    pale = "#" + "".join("%02X" % round(int(th["primary"][i:i + 2], 16) * .3 + 255 * .7) for i in (1, 3, 5))
+    out += ["--logo-wall:%s" % L["wall"], "--logo-s0:%s" % L["strata"][0], "--logo-s1:%s" % L["strata"][1],
+            "--logo-r0:%s" % L["rev_strata"][0], "--logo-pale:%s" % pale, "--logo-accent:%s" % L["accent"],
+            "--logo-accent-hi:%s" % L["accent_hi"], "--band-bg:%s" % th.get("band-bg", th["primary-dk"])]
+    return ";".join(out)
+
+
+def load_theme():
+    """Read theme.json and write assets/theme.css (every theme, active one as default) and
+    assets/themes.js (labels for the on-page theme picker)."""
+    with open(os.path.join(ROOT, "theme.json"), encoding="utf-8") as fh:
+        t = json.load(fh)
+    active = t["active"]
+    th = t["themes"][active]
+    lines = ["/* generated from theme.json — default theme: %s (%s). Do not edit; edit theme.json and rebuild. */" % (active, th["label"]),
+             ":root{%s}" % theme_vars(th)]
+    for key, tv in t["themes"].items():
+        lines.append('html[data-theme="%s"]{%s}' % (key, theme_vars(tv)))
+    lines.append(BAND_LIGHT_CSS)
     with open(os.path.join(ROOT, "assets", "theme.css"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
-    return t["active"], th
+    light = [k for k, v in t["themes"].items() if v.get("band") == "light"]
+    picker = [{"k": k, "n": v["label"], "c": v["primary-dk"], "a": v["accent"], "l": v.get("band") == "light"}
+              for k, v in t["themes"].items()]
+    with open(os.path.join(ROOT, "assets", "themes.js"), "w", encoding="utf-8") as fh:
+        fh.write("window.USUCGER_THEMES=" + json.dumps({"default": active, "list": picker}, ensure_ascii=False) + ";\n")
+    THEME_INFO.update(theme_key=active, theme_band="light" if th.get("band") == "light" else "dark",
+                      light_keys=json.dumps(light), all_keys=json.dumps(list(t["themes"])))
+    return active, th
 
 
 def load_brand():
@@ -387,7 +413,7 @@ def load_brand():
     NAV_MARK = inline_svg("usucger-mark.svg", "Nav", "nav-mark", 'aria-hidden="true" focusable="false"')
     FOOTER_LOGO = inline_svg("usucger-logo-horizontal-reversed.svg", "Ft", "ft-logo", 'aria-hidden="true" focusable="false"')
     # footer lockup: drop the solid background rect so it sits on the footer colour
-    FOOTER_LOGO = re.sub(r'<rect width="100%" height="100%" fill="var(--primary-dk)"/>', "", FOOTER_LOGO)
+    FOOTER_LOGO = re.sub(r'<rect width="100%" height="100%" fill="var\(--logo-wall\)"/>', "", FOOTER_LOGO)
 
 
 def notices_html():
@@ -440,6 +466,7 @@ def build_page(slug, meta, body):
         board_email=BOARD_EMAIL,
         nav_mark=NAV_MARK,
         footer_logo=FOOTER_LOGO,
+        **THEME_INFO,
     )
 
 
