@@ -214,9 +214,7 @@ SHELL = """<!DOCTYPE html>
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta property="og:type" content="website">
-<link rel="icon" type="image/svg+xml" href="assets/brand/usucger-icon.svg">
-<link rel="apple-touch-icon" href="assets/brand/usucger-icon.svg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+{icon_links}<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
@@ -331,6 +329,8 @@ PHERO = """<section class="phero">
 </section>"""
 
 
+# Set to True (and replace brand/logo/*.svg) once the final logo is adopted.
+SHOW_LOGO = False
 NAV_MARK = None
 FOOTER_LOGO = None
 
@@ -410,6 +410,11 @@ def load_theme():
 
 def load_brand():
     global NAV_MARK, FOOTER_LOGO
+    if not SHOW_LOGO:
+        # placeholder logo withdrawn until the final USUCGER logo is adopted: text-only brand
+        NAV_MARK = ""
+        FOOTER_LOGO = '<strong>USUCGER</strong><span class="ft-tag">Geotechnical Education &amp; Research</span>'
+        return
     NAV_MARK = inline_svg("usucger-mark.svg", "Nav", "nav-mark", 'aria-hidden="true" focusable="false"')
     FOOTER_LOGO = inline_svg("usucger-logo-horizontal-reversed.svg", "Ft", "ft-logo", 'aria-hidden="true" focusable="false"')
     # footer lockup: drop the solid background rect so it sits on the footer colour
@@ -466,6 +471,7 @@ def build_page(slug, meta, body):
         board_email=BOARD_EMAIL,
         nav_mark=NAV_MARK,
         footer_logo=FOOTER_LOGO,
+        icon_links=('<link rel="icon" type="image/svg+xml" href="assets/brand/usucger-icon.svg">\n<link rel="apple-touch-icon" href="assets/brand/usucger-icon.svg">\n') if SHOW_LOGO else "",
         **THEME_INFO,
     )
 
