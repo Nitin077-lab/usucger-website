@@ -1,28 +1,54 @@
-/* generated from theme.json — active theme: strata (Strata — cobalt & amber). Do not edit; edit theme.json and rebuild. */
+/* generated from theme.json — active theme: core-sample (Core Sample — white & safety orange). Do not edit; edit theme.json and rebuild. */
 :root{
-  --primary-dk:#102747;
-  --primary:#1B3F6E;
-  --primary-md:#2554A0;
-  --primary-lt:#EBF1FB;
-  --primary-lt2:#5B86CC;
-  --accent:#C47A1A;
-  --accent-dk:#B06A10;
-  --accent-lt:#FDF4E3;
-  --accent-pale:#FEF9F0;
-  --accent-hi:#FCD87A;
-  --sand:#F5F1E9;
-  --border:#E3DDD2;
-  --border-dk:#CBC3B5;
+  --primary-dk:#1A1A1A;
+  --primary:#2A2A2A;
+  --primary-md:#595959;
+  --primary-lt:#F1F1F0;
+  --primary-lt2:#8A8A8A;
+  --accent:#C2410C;
+  --accent-dk:#9A3412;
+  --accent-lt:#FDE8DA;
+  --accent-pale:#FCF6F3;
+  --accent-hi:#FDBA74;
+  --sand:#F7F7F6;
+  --border:#E3E3E2;
+  --border-dk:#CBCBCA;
   --ink:#181818;
   --ink-2:#343434;
   --muted:#686460;
   --muted-lt:#9B9690;
-  --link:#0A6B6E;
-  --link-lt:#E4F4F4;
-  --on-dark-link:#93C5FD;
-  --primary-rgb:27,63,110;
-  --primary-dk-rgb:16,39,71;
-  --primary-md-rgb:37,84,160;
-  --accent-rgb:196,122,26;
-  --link-rgb:10,107,110;
+  --link:#1D5F8A;
+  --link-lt:#E8EFF3;
+  --on-dark-link:#FDC890;
+  --primary-rgb:42,42,42;
+  --primary-dk-rgb:26,26,26;
+  --primary-md-rgb:89,89,89;
+  --accent-rgb:194,65,12;
+  --link-rgb:29,95,138;
 }
+/* light header band (theme.json "band": "light") */
+:root{--band-bg:#F4F4F2}
+body .hero,body .phero{background:var(--band-bg);border-bottom:1px solid var(--border)}
+body .hero-glow,body .phero::after{display:none}
+body .hero h1,body .phero h1{color:var(--primary-dk)}
+body .hero h1 em{color:var(--accent)}
+body .hero-kicker{color:var(--accent-dk);background:var(--accent-lt);border-color:rgba(var(--accent-rgb),.35)}
+body .hero-lead,body .phero-lead{color:var(--ink-2);font-weight:400}
+body .hero .btn-ghost,body .phero .btn-ghost{background:#fff;border-color:var(--border-dk);color:var(--primary-dk)}
+body .hero .btn-ghost:hover,body .phero .btn-ghost:hover{background:var(--sand)}
+body .hstat-n{color:var(--primary-dk)}
+body .hstat-n em{color:var(--accent)}
+body .hstat-l{color:var(--muted)}
+body .hero-right{background:#fff;border-color:var(--border)}
+body .hbul-head{color:var(--muted);border-bottom-color:var(--border)}
+body .hbul-live{color:var(--muted)}
+body .hbul-item{border-bottom-color:var(--border)}
+body .hbul-item:hover{background:var(--sand)}
+body .hbul-title{color:var(--primary-dk)}
+body .hbul-sub{color:var(--muted)}
+body .phero .eyebrow{color:var(--accent-dk)}
+body .phero .eyebrow-line{background:var(--accent)}
+body .crumbs{color:var(--muted)}
+body .crumbs a{color:var(--ink-2)}
+body .crumbs a:hover{color:var(--primary-dk)}
+
