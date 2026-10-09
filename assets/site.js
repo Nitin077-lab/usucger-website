@@ -330,3 +330,35 @@
   input.addEventListener('input', run);
 })();
 (function(){var k=document.querySelector('.nav-search kbd');if(k&&!/Mac|iPhone|iPad/.test(navigator.platform))k.textContent='Ctrl K';})();
+
+/* ---- Theme picker (home page only, for Board review) ---------------------
+   Lists every theme in theme.json; the choice is saved in this browser and
+   applied on every page by the small script in <head>. ?theme=<key> also works. */
+(function () {
+  var data = window.USUCGER_THEMES;
+  if (!data || !document.querySelector('.hero')) return;
+  var root = document.documentElement;
+  var light = data.list.filter(function (t) { return t.l; }).map(function (t) { return t.k; });
+  function apply(k) {
+    root.setAttribute('data-theme', k);
+    root.setAttribute('data-band', light.indexOf(k) > -1 ? 'light' : 'dark');
+    try { localStorage.setItem('usucger-theme', k); } catch (e) {}
+    dot.style.background = byKey[k].c; dot.style.boxShadow = 'inset -6px 0 0 ' + byKey[k].a;
+  }
+  var byKey = {}; data.list.forEach(function (t) { byKey[t.k] = t; });
+  var box = document.createElement('div');
+  box.className = 'theme-picker';
+  box.innerHTML = '<label for="themeSelect">Color theme <span>preview</span></label><div class="tp-row"><span class="tp-dot" aria-hidden="true"></span><select id="themeSelect"></select></div><button type="button" class="tp-reset">Reset to default</button>';
+  var sel = box.querySelector('select'), dot = box.querySelector('.tp-dot');
+  data.list.forEach(function (t) {
+    var o = document.createElement('option');
+    o.value = t.k; o.textContent = t.n.replace(' — ', ': ') + (t.k === data.default ? ' (current)' : '');
+    sel.appendChild(o);
+  });
+  var cur = root.getAttribute('data-theme');
+  sel.value = byKey[cur] ? cur : data.default;
+  sel.addEventListener('change', function () { apply(sel.value); });
+  box.querySelector('.tp-reset').addEventListener('click', function () { sel.value = data.default; apply(data.default); });
+  document.body.appendChild(box);
+  apply(sel.value);
+})();
