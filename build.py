@@ -228,7 +228,7 @@ SHELL = """<!DOCTYPE html>
   <div class="nav-wrap">
     <a href="index.html" class="nav-brand" aria-label="USUCGER home">
       {nav_mark}
-      <div class="nav-brand-text"><strong>USUCGER</strong><span>Geotechnical Education &amp; Research</span></div>
+      <div class="nav-brand-text"><strong>USUCGER</strong></div>
     </a>
     <ul class="nav-menu">{nav}</ul>
     <div class="nav-end">
