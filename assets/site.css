@@ -683,3 +683,7 @@ body{padding-bottom:2.4rem}
 .tp-reset{margin-top:.45rem;background:none;border:none;padding:0;font-size:.72rem;color:var(--link);font-weight:600;text-decoration:underline}
 @media(max-width:640px){.theme-picker{left:.6rem;right:.6rem;width:auto;bottom:3.6rem;padding:.55rem .65rem}}
 @media print{.theme-picker{display:none}}
+
+/* text-only footer brand (used while the logo is withdrawn) */
+.ft-brand > a > strong{font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;color:#fff;display:block;line-height:1;letter-spacing:-.2px}
+.ft-brand .ft-tag{display:block;font-size:.66rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-hi);margin-top:.4rem}
