@@ -687,3 +687,7 @@ body{padding-bottom:2.4rem}
 /* text-only footer brand (used while the logo is withdrawn) */
 .ft-brand > a > strong{font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;color:#fff;display:block;line-height:1;letter-spacing:-.2px}
 .ft-brand .ft-tag{display:block;font-size:.66rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-hi);margin-top:.4rem}
+
+/* wordmark-only nav brand (while the logo is withdrawn) */
+.nav-brand-text strong{font-size:1.55rem;letter-spacing:.02em;line-height:1;color:var(--primary-dk)}
+@media(max-width:640px){.nav-brand-text strong{font-size:1.35rem}}
