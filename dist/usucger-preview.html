@@ -3996,7 +3996,8 @@ buildDataTable({
 
 /* ---- Theme picker (home page only, for Board review) ---------------------
    Lists every theme in theme.json; the choice is saved in this browser and
-   applied on every page by the small script in <head>. ?theme=<key> also works. */
+   applied on every page by the small script in <head> for the rest of
+   the visit; every new visit starts on the default theme (Core Sample). ?theme=<key> also works. */
 (function () {
   var data = window.USUCGER_THEMES;
   if (!data || !document.querySelector('.hero')) return;
@@ -4005,7 +4006,7 @@ buildDataTable({
   function apply(k) {
     root.setAttribute('data-theme', k);
     root.setAttribute('data-band', light.indexOf(k) > -1 ? 'light' : 'dark');
-    try { localStorage.setItem('usucger-theme', k); } catch (e) {}
+    try { if (k === data.default) sessionStorage.removeItem('usucger-theme'); else sessionStorage.setItem('usucger-theme', k); } catch (e) {}
     dot.style.background = byKey[k].c; dot.style.boxShadow = 'inset -6px 0 0 ' + byKey[k].a;
   }
   var byKey = {}; data.list.forEach(function (t) { byKey[t.k] = t; });
