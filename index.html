@@ -11,8 +11,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=790b64ee">
-<link rel="stylesheet" href="assets/theme.css?v=01c82848">
+<link rel="stylesheet" href="assets/site.css?v=816a387a">
+<link rel="stylesheet" href="assets/theme.css?v=f737c80c">
 <script>(function(){var L=["core-sample", "limestone", "sandstone", "glacier", "sage", "amethyst", "tuff"];try{var q=new URLSearchParams(location.search).get("theme");var t=q||localStorage.getItem("usucger-theme");if(q)localStorage.setItem("usucger-theme",q);if(t&&["strata", "bedrock", "moraine", "core-sample", "shale", "laterite", "basalt", "aquifer", "hematite", "loess", "limestone", "sandstone", "glacier", "sage", "amethyst", "garnet", "fluorite", "peat", "tuff"].indexOf(t)>-1){var h=document.documentElement;h.setAttribute("data-theme",t);h.setAttribute("data-band",L.indexOf(t)>-1?"light":"dark");}}catch(e){}})();</script>
 </head>
 <body>
@@ -65,7 +65,8 @@
 .hero-glow{position:absolute;top:-20%;left:-10%;width:70%;height:120%;pointer-events:none;background:radial-gradient(ellipse at 30% 40%,rgba(var(--primary-md-rgb),.5) 0%,transparent 60%)}
 .hero-left{padding:2.8rem 0 2.6rem;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2;width:100%}
 .hero-kicker{display:inline-flex;align-items:center;gap:9px;background:rgba(var(--accent-rgb),.15);border:1px solid rgba(var(--accent-rgb),.3);color:var(--amber-hi);padding:.38rem .95rem;border-radius:3px;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:1.15rem;width:fit-content}
-.hero h1{color:#fff;margin-bottom:1rem;font-size:clamp(2rem,3.3vw,2.85rem);line-height:1.12}
+.hero-brand{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:clamp(3rem,6.2vw,5rem);line-height:.95;letter-spacing:.03em;color:#fff;margin-bottom:.7rem}
+.hero h1{color:#fff;margin-bottom:1rem;font-size:clamp(1.55rem,2.5vw,2.15rem);line-height:1.18}
 .hero h1 em{font-style:italic;color:var(--amber-hi)}
 .hero-lead{font-size:1rem;color:rgba(255,255,255,.62);line-height:1.7;max-width:540px;margin-bottom:1.6rem;font-weight:300}
 .hero-actions{display:flex;gap:.85rem;flex-wrap:wrap;margin-bottom:1.9rem}
@@ -120,6 +121,7 @@
 <div class="hero-grid">
 <div class="hero-left">
   <div class="hero-kicker">Founded 1985 &middot; San Francisco</div>
+  <div class="hero-brand" aria-hidden="true">USUCGER</div>
   <h1>Advancing <em>Geotechnical</em><br>Engineering Education<br>and Research</h1>
   <p class="hero-lead">The United States Universities Council on Geotechnical Education and Research provides advocacy for high-quality geomechanical, geotechnical and geoenvironmental engineering research and education across U.S. academic institutions.</p>
   <div class="hero-actions">
@@ -138,7 +140,7 @@
   <a class="hbul-item" href="travel-grants.html"><span class="badge badge-teal">&#9992; Students</span><div class="hbul-title">Travel grants up to $1,000 per student</div><div class="hbul-sub">Two upcoming cycles &middot; advisor must be a current member</div></a>
   <a class="hbul-item" href="membership.html"><span class="badge badge-blue">&#9679; Membership</span><div class="hbul-title">2025&ndash;2027 dues cycle is open</div><div class="hbul-sub">$75 per person, not per institution &middot; not prorated</div></a>
   <a class="hbul-item" href="positions.html"><span class="badge badge-green">&#128188; Positions</span><div class="hbul-title">Faculty openings posted by members</div><div class="hbul-sub">Free to post for USUCGER member institutions</div></a>
-  <a class="hbul-item" href="conferences.html"><span class="badge badge-teal">&#128197; Events</span><div class="hbul-title">Conferences shared by members</div><div class="hbul-sub">CPT'27 Vancouver &middot; 13th ICG Montreal &middot; ICSMGE Vienna</div></a>
+  <a class="hbul-item" href="conferences.html"><span class="badge badge-teal">&#128197; Events</span><div class="hbul-title">Upcoming conferences through 2028</div><div class="hbul-sub">ASCE2027 Philadelphia &middot; CPT'27 Vancouver &middot; UNSAT 2027 Boston</div></a>
 </div>
 </div>
 <svg class="hero-band" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true" focusable="false">
@@ -424,7 +426,7 @@
 </div>
 
 <button id="btt" type="button" title="Back to top" aria-label="Back to top">&uarr;</button>
-<script src="assets/search-index.js?v=d126b142" defer></script>
+<script src="assets/search-index.js?v=bf1ee985" defer></script>
 <script src="assets/themes.js?v=5458f9a1"></script>
 <script src="assets/site.js?v=f54cef9c"></script>
 </body>

@@ -343,7 +343,7 @@ def hex_rgb(h):
 BAND_LIGHT_CSS = """/* light header band (theme.json "band": "light") */
 html[data-band="light"] .hero,html[data-band="light"] .phero{background:var(--band-bg);border-bottom:1px solid var(--border)}
 html[data-band="light"] .hero-glow,html[data-band="light"] .phero::after{display:none}
-html[data-band="light"] .hero h1,html[data-band="light"] .phero h1{color:var(--primary-dk)}
+html[data-band="light"] .hero h1,html[data-band="light"] .phero h1,html[data-band="light"] .hero-brand{color:var(--primary-dk)}
 html[data-band="light"] .hero h1 em{color:var(--accent)}
 html[data-band="light"] .hero-kicker{color:var(--accent-dk);background:var(--accent-lt);border-color:rgba(var(--accent-rgb),.35)}
 html[data-band="light"] .hero-lead,html[data-band="light"] .phero-lead{color:var(--ink-2);font-weight:400}
