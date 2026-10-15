@@ -689,5 +689,9 @@ body{padding-bottom:2.4rem}
 .ft-brand .ft-tag{display:block;font-size:.66rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-hi);margin-top:.4rem}
 
 /* wordmark-only nav brand (while the logo is withdrawn) */
-.nav-brand-text strong{font-size:1.55rem;letter-spacing:.02em;line-height:1;color:var(--primary-dk)}
-@media(max-width:640px){.nav-brand-text strong{font-size:1.35rem}}
+.nav-brand-text strong{font-size:1.95rem;letter-spacing:.03em;line-height:1;color:var(--primary-dk)}
+@media(max-width:640px){.nav-brand-text strong{font-size:1.5rem}}
+
+/* book/proceedings file size labels */
+.fsize{display:inline-block;font-size:.68rem;font-weight:600;color:var(--muted);background:var(--sand);border:1px solid var(--border);border-radius:3px;padding:0 5px;margin-left:4px;vertical-align:1px;white-space:nowrap}
+.dl-note{font-size:.84rem;color:var(--muted);background:var(--sand);border:1px solid var(--border);border-radius:var(--r);padding:.65rem .9rem;margin-bottom:1.4rem}
