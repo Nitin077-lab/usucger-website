@@ -49,8 +49,8 @@ for y in years:
         meta = when(e) + " &middot; " + esc(e["location"])
         if e.get("note"):
             meta += ' &middot; <strong style="color:var(--amber)">%s</strong>' % esc(e["note"])
-        out.append('  <a class="linkrow conf-row" data-end="%s" href="%s" target="_blank" rel="noopener"><div class="linkrow-ic">%s</div><div class="linkrow-body"><div class="linkrow-title">%s</div><div class="linkrow-meta">%s</div></div></a>'
-                   % (end, e["url"], e.get("icon", "&#128197;"), esc(e["name"]), meta))
+        out.append('  <a class="linkrow conf-row" data-end="%s" href="%s" target="_blank" rel="noopener"><div class="linkrow-body"><div class="linkrow-title">%s</div><div class="linkrow-meta">%s</div></div></a>'
+                   % (end, e["url"], esc(e["name"]), meta))
     out.append('</div>')
 out.append('<script>document.addEventListener("DOMContentLoaded",function(){var t=new Date().toISOString().slice(0,10);document.querySelectorAll(".conf-row[data-end]").forEach(function(r){if(r.dataset.end<t)r.remove()});document.querySelectorAll(".linklist").forEach(function(l){if(!l.children.length){var h=l.previousElementSibling;l.remove();if(h&&h.tagName==="H2")h.remove()}})});</script>')
 out.append('<!-- conferences:end -->')
