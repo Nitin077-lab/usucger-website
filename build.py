@@ -219,7 +219,7 @@ SHELL = """<!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 <link rel="stylesheet" href="assets/theme.css">
-<script>(function(){{var L={light_keys};try{{var q=new URLSearchParams(location.search).get("theme");var t=q||localStorage.getItem("usucger-theme");if(q)localStorage.setItem("usucger-theme",q);if(t&&{all_keys}.indexOf(t)>-1){{var h=document.documentElement;h.setAttribute("data-theme",t);h.setAttribute("data-band",L.indexOf(t)>-1?"light":"dark");}}}}catch(e){{}}}})();</script>
+<script>(function(){{var L={light_keys};try{{var q=new URLSearchParams(location.search).get("theme");try{{localStorage.removeItem("usucger-theme")}}catch(e){{}}var t=q||sessionStorage.getItem("usucger-theme");if(q)sessionStorage.setItem("usucger-theme",q);if(t&&{all_keys}.indexOf(t)>-1){{var h=document.documentElement;h.setAttribute("data-theme",t);h.setAttribute("data-band",L.indexOf(t)>-1?"light":"dark");}}}}catch(e){{}}}})();</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
